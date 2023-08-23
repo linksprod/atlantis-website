@@ -1,23 +1,27 @@
 <template>
-  <div id="app" class="overflow-x-hidden h-100">
-    <template-one></template-one>
-  </div>
+  <v-app class="scroll-auto">
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import TemplateOne from "./components/TemplateOne.vue";
 
 export default {
-  name: "App",
-  components: {
-    TemplateOne,
-  },
-};
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
+}
 </script>
 
-<style lang="scss" scoped>
+<style>
+html,
+body,
+.v-application,
 #app {
-  font-family: "Nunito", sans-serif;
+  overflow: auto !important;
 }
 </style>
->
