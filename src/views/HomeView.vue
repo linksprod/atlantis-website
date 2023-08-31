@@ -2,7 +2,6 @@
   <SiteBg >
     <SiteComing/>
     <CounterCards/>
-    <SubscribeUs/>
 
   </SiteBg>
 
@@ -15,7 +14,6 @@ import { defineComponent } from 'vue';
 import SiteComing from '../components/comingsoon.vue';
 import SiteBg from '../components/bg.vue';
 import CounterCards from '../components/Counter.vue';
-import SubscribeUs from '../components/subscribe.vue';
 
 export default defineComponent({
   name: 'HomeView',
@@ -23,7 +21,6 @@ export default defineComponent({
     SiteComing,
     SiteBg,
     CounterCards,
-    SubscribeUs,
   },
 });
 </script>
