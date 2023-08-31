@@ -1,5 +1,6 @@
 <template>
   <SiteBg >
+    <div></div>
     <SiteComing/>
     <CounterCards/>
 
