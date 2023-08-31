@@ -8,9 +8,11 @@
     </div> -->
 
 
-    <div class="d-flex justify-space-around pt-15">
+    <div class="container">
+">
         <!-- ---------------- -->
-        <v-card class="opacitybg mx-auto" width="10vw" weight="8vh" href="https://www.yusufonaran.me" target="_blank">
+        <v-col>
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="http://www.atlantisvoyages.com.tn/" target="_blank">
             <v-card-text>
                 <p class="text-h3 text--primary text-center font-weight-regular">
                     {{ days % 365  }}
@@ -22,8 +24,10 @@
                 </v-btn>
             </v-card-actions>
         </v-card>
+    </v-col>
         <!-- ---------------- -->
-        <v-card class="opacitybg mx-auto" width="10vw" weight="8vh" href="https://www.yusufonaran.me" target="_blank">
+        <v-col>
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="http://www.atlantisvoyages.com.tn/" target="_blank">
             <v-card-text>
                 <p class="text-h3 text--primary text-center font-weight-regular">
                     {{ hours % 24 }}
@@ -34,9 +38,12 @@
                     HOURS
                 </v-btn>
             </v-card-actions>
+
         </v-card>
+    </v-col>
         <!-- ---------------- -->
-        <v-card class="opacitybg mx-auto" width="10vw" weight="8vh" href="https://www.yusufonaran.me" target="_blank">
+        <v-col>
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="http://www.atlantisvoyages.com.tn/" target="_blank">
             <v-card-text>
                 <p class="text-h3 text--primary text-center font-weight-regular">
                     {{ minutes % 60 }}
@@ -48,8 +55,10 @@
                 </v-btn>
             </v-card-actions>
         </v-card>
+    </v-col>
         <!-- ---------------- -->
-        <v-card class="opacitybg mx-auto" width="10vw" weight="8vh" href="https://www.yusufonaran.me" target="_blank">
+    <v-col>
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="http://www.atlantisvoyages.com.tn/" target="_blank">
             <v-card-text>
                 <p class="text-h3 text--primary text-center font-weight-regular">
                     {{ seconds % 60 }}
@@ -61,6 +70,7 @@
                 </v-btn>
             </v-card-actions>
         </v-card>
+        </v-col>
 
     </div>
 </template>
@@ -101,6 +111,12 @@ export default {
 <style>
 .opacitybg{
     background: rgba(255, 255, 255, 0.7);
+}
+.container {
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
