@@ -9,7 +9,6 @@
 
 
     <div class="container">
-">
         <!-- ---------------- -->
         <v-col>
         <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="http://www.atlantisvoyages.com.tn/" target="_blank">

@@ -17,7 +17,7 @@ export default {
 .bg__image {
   background: url('../assets/bg2.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
 
 }
 </style>
