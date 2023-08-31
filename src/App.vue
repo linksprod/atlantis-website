@@ -1,27 +1,16 @@
 <template>
-  <v-app class="scroll-auto">
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <div id="app">
+    <GoogleMap />
+  </div>
 </template>
 
 <script>
+  import GoogleMap from './components/GoogleMap.vue'
 
 export default {
   name: 'App',
-
-  data: () => ({
-    //
-  }),
+  components: {
+    GoogleMap
+  }
 }
 </script>
-
-<style>
-html,
-body,
-.v-application,
-#app {
-  overflow: auto !important;
-}
-</style>
