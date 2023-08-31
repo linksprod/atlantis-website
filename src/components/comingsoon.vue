@@ -1,11 +1,14 @@
 <template>
-    <h1 class="text-center pt-5 text-h2 font-weight-medium">
-        Tunisia Portal
+    <h1 style="color: ghostwhite;-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);" class="text-center pt-5 text-h2 font-weight-medium">
+        Tunisia Trip
     </h1>
     <div class="text-caption text-center mt-5">
-        Our website is under construction.
+        <p style="color: ghostwhite;-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);">Our website is under construction.</p>
         <br>
-        We 'll be here soon with our new awesome site.</div>
+        <p style="color: ghostwhite;-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.363);">We 'll be here soon with our new awesome site.</p></div>
 
 
 
