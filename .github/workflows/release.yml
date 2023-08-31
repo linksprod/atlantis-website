@@ -15,7 +15,7 @@ name: Deploy Release
 on:
   push:
     tags:
-      - "Release *"
+      - "Release-*"
 
 # Environment variables available to all jobs and steps in this workflow
 env:
