@@ -1,27 +1,10 @@
 <template>
-  <v-app class="scroll-auto">
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <TopNavBar />
 </template>
 
-<script>
-
-export default {
-  name: 'App',
-
-  data: () => ({
-    //
-  }),
-}
+<script setup>
+import TopNavBar from "./components/common/TopNavBar.vue";
 </script>
+<style lang="scss">
 
-<style>
-html,
-body,
-.v-application,
-#app {
-  overflow: auto !important;
-}
 </style>
