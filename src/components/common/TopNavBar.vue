@@ -87,7 +87,5 @@ export default {
 .res{
     padding-top: 9px;
 }
-.menu{
-    padding-top: 30px;
-}
+
 </style>
