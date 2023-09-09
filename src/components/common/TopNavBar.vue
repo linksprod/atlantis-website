@@ -1,4 +1,5 @@
 <template>
+  <div class="container">
     <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container" style="padding-left: 14%;">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +21,14 @@
       
   
     </nav>
+  </div>
   </template>
 
 <script>
-
 export default {
-  name: "App",
+  name: "NavBar",
   data(){
     return {
-      appTitle: 'Awesome App',
-      top_logo: '@/assets/img/top_logo.svg', 
       menuItems: [
           { title: '튀니지에 관한 정보', path: '/information_about_tunisia'},
           { title: '관광 정보', path: '/tourist_information'},
@@ -40,6 +39,7 @@ export default {
     }
   },
 };
+
 </script>
 <style lang="scss">
 
