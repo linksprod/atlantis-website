@@ -85,7 +85,7 @@ export default {
         const hours = ref(0);
         const minutes = ref(0);
         const seconds = ref(0);
-        const lunchDate = new Date('15 September 2023');
+        const lunchDate = new Date('01 October 2023');
 
 
         setInterval(() => {
