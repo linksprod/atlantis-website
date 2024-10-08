@@ -1,0 +1,155 @@
+@media all and (max-width: 767px) {
+
+/* section 1 */
+
+.main-img {
+    align-items: flex-start;    
+    padding-top: 15%;
+}
+
+.text-in-img h1{
+    font-size: 30px;
+    padding-bottom: 6%;
+}
+
+.main-img .text-in-img .btns{
+    padding-top: 6%;
+}
+
+.main-img .text-in-img .btns .btn-white{
+    margin-right: 20px;
+}
+
+/* section 2 */
+.items{
+    font-size: 13px;
+}
+
+/* section 3 */
+.sect3-partie1{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.section-3-pat2 input {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.section-3-pat2{
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 5%;
+}
+
+.section-3-pat2 p{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.lign-in-sectuion-3{
+    display: none;
+}
+
+.lign-in-sectuion-3-mobil{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #BCBACD;
+    margin-bottom: 5%;
+    margin-top: -2%;
+}
+
+/* section 4 */
+.btn-see-more{
+   display: none;
+}
+
+#section-4 .patie-1 h1{
+    font-size: 31px;
+    margin-top: 10%;
+    width: 50%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+}
+
+#section-4 .patie-1 p {
+    padding-left: 0;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+/* section 5 */
+
+#section-5 .row .col-lg-6{
+    padding: 5%;
+}
+
+#section-5 .partie-1 , #section-5 .partie-2{
+    padding-right: 3% !important;
+    padding-left: 3% !important;
+    padding-top: 13% !important;
+    padding-bottom: 13% !important;
+}
+
+#section-5 .partie-1 h1 ,#section-5 .partie-2 h1 {
+    font-size: 27px;
+    text-align: center;
+}
+
+#section-5 .partie-1 p ,#section-5 .partie-2 p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.partie-1 button, .partie-1 button:hover ,#section-5 .partie-2 button,#section-5 .partie-2 button:hover{
+    font-size: 16px;
+    height: 54px;
+    width: 100%;
+    margin-top: 4%;
+}
+
+#section-6 .head h1 {
+    font-size: 31px;
+    margin-top: 10%;
+    width: 50%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+}
+
+#section-6 .head p{
+    padding-left: 0;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+#section-6  .cards .row{
+    background-color: #5D5A88;
+    border-radius: 20px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.description h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.description p {
+    font-size: 11px;
+    color: #9795B5;
+    padding-left: 0;
+    padding-right: 0;
+    padding-right: 0;
+}
+
+.description button{
+    font-size: 10px;
+    background-color: #8D8BA7;
+    width: 110px;
+}
+}

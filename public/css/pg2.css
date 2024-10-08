@@ -1,0 +1,1384 @@
+:root {
+    --main-color: #347EFF;
+}
+.container{
+    max-width: 1400px;
+}
+
+body.tunisiatrip {
+    font-family: 'noto', sans-serif;
+}
+
+#section-1 .slick-dots {
+    position: absolute;
+    margin-bottom: 4% !important;
+    display: block;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#section-1 .slick-dots li button:before {
+    font-family: 'slick';
+    margin-top: -273%;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#section-1 .slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+.part2 p{
+    font-weight: bolder;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5%;
+}
+#Tunisia-over #section-1 .slick-dots {
+    padding-bottom: 4% !important;
+}
+
+.part2 img{
+    width: 196px !important;
+    height: 89px !important;
+    border-radius: 10px !important;
+}
+@media screen and (max-width: 991px) {
+    .part2 img {
+
+        padding: 5px 6px;
+        width: 155px !important;
+        height: 86px !important;
+        border-radius: 10px !important;
+        margin-bottom: -12px;
+
+
+    }
+}
+body.tunisiatrip button,
+body.tunisiatrip a {
+    transition: all .3s ease;
+    text-decoration: none;
+}
+#section-6 .parghraphe1,#section-5 .parghraphe1,#pprt6{
+    width: 100%;
+}
+main {
+    margin-top: 100px;
+}
+.slick-list .draggable{
+    height: 100%;
+}
+.row {
+    display: flex ;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+}
+
+#section-5 .ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    margin: 0 auto;
+    width: 3%;
+    margin-top: 1%;
+}
+
+#section-6 .ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    width: 7%;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+
+#section-10 .ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    width: 7%;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+#section-6 .ligne-separtion4 {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+
+    width: 3%;
+
+    margin-bottom: 19px;
+}
+
+#section-8 .row{
+    flex-direction: row-reverse;
+}
+#section-8 .ligne-separtion {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    margin: 0px auto;
+    width: 3%;
+
+    margin-bottom: 19px;
+}
+
+#section-8 .ligne-separtion8 {
+    border-bottom: 1.5px solid #b1afaf;
+    position: relative;
+    margin: 0px auto;
+    width: 6%;
+    right: 45%;
+    margin-bottom: 19px;
+}
+
+.main-title {
+    font-size: 1.55rem;
+    color: black;
+    font-weight: 600;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7{
+    margin-top: -4%;
+}
+#p5{
+    margin-top: -2%;
+}
+.links_box-shadox {
+    position: relative;
+    cursor: auto;
+}
+
+.links_box-shadox:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.links_box-shadox:hover:before {
+    opacity: 1;
+}
+
+.links_position-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 30px 30px;
+    z-index: 2;
+}
+
+.inner-wrap-block-image {
+    position: relative;
+    z-index: 2;
+}
+
+section {
+    padding:30px 0;
+}
+
+#section-4 {
+    margin-top: 15px;
+}
+
+#img-langue {
+    object-fit: contain;
+    width: 100%;
+    height: 384px;
+}
+
+#sec3img {
+    object-fit: contain;
+    width: 100%;
+    height: 292px;
+}
+
+.titre-1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #347EFF;
+}
+
+body.tunisiatrip .card {
+    transition: all .3s ease;
+    cursor: auto;
+    border: 3px solid #f1f1f1bf;
+    padding: 5px 15px;
+}
+
+body.tunisiatrip .card-body {
+    padding: 15px;
+}
+
+
+
+
+.Les-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover .titre-2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section-9-hover:hover {
+    cursor: auto;
+}
+
+.section-9-hover:hover .links_box-1 button,
+.section-9-hover:hover .links_box-2 button,
+.section-9-hover:hover .links_box-3 button {
+    color: #347EFF;
+}
+
+.section-9-hover:hover .links_box-1,
+.section-9-hover:hover .links_box-2,
+.section-9-hover:hover .links_box-3 {
+    border: 2px solid #347EFF;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.titre-2 {
+    font-size: 1.10rem;
+    font-weight: 700;
+    height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    transition: all .5s;
+}
+
+
+.parghraphe1 {
+    font-size: 1rem;
+    max-height: 80px;
+    overflow: auto;
+    margin: 0;
+}
+
+#section-5 .parghraphe {
+    font-size: 1rem;
+    text-align: left;
+}
+
+#section-8 .parghraphe {
+    font-size: 1rem;
+    width: 55%;
+    text-align: center;
+}
+
+.Lignes-seprtion {
+    width: 10%;
+    border: none;
+    height: 1.5px;
+    background-color: #ccc;
+    margin: 5vh auto;
+}
+
+.btn.btn-outline-primary.button-main {
+    display: none;
+    position: absolute;
+    font-weight: bold;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 36px;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+
+/* cercl sess1 */
+.sess1direct img {
+    margin-right: 10px;
+}
+
+.one-time-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one-time-slide img{
+    cursor: auto;
+    border-radius: 20px !important;
+    height: 97%;
+}
+
+.sess1direct{
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#section-9 .slick-slide {
+    display: none ;
+}
+
+#section-3 .slick-slide {
+    display: none ;
+}
+.gg {
+    display: flex  !important;
+    justify-content: space-between  !important;
+    padding-bottom: 1.25rem  !important;
+  }
+
+
+section .block-cards {
+    display: flex;
+}
+
+#section-8 .links_box {
+    position: relative;
+    cursor: auto;
+    border-radius: 20px;
+    padding-top: 15px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('../images/img4.png');
+}
+
+#section-9 .links_box-1 {
+    position: relative;
+    height: 280px;
+    cursor: auto;
+    border-radius: 20px;
+    margin: 15px 0px;
+    padding: 15px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('../images/rec.png');
+}
+@media screen and (max-width: 991px) {
+    #section-9 .links_box-1,.links_box-2,.links_box-3 {
+        width: 95%;
+
+        margin: 10px 0px 0px 10px !important;
+    }}
+#section-9 .links_box-2 {
+    position: relative;
+    height: 280px;
+    cursor: auto;
+    border-radius: 20px;
+    margin: 15px 0px;
+    padding: 15px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('../images/Rectangle 16.png');
+}
+
+#section-9 .links_box-3 {
+    position: relative;
+    height: 280px;
+    cursor: auto;
+    border-radius: 20px;
+    margin: 15px 0px;
+    padding: 15px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('../images/Rectangle16 .png');
+}
+
+#section-10 .btn.btn-outline-primary.button-main {
+    position: absolute;
+    margin: 23px;
+    z-index: 2;
+    font-weight: bold;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 36px;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+
+
+
+
+#section-3 .links_box {
+    padding:2px 16px 30px 16px;
+
+}
+
+
+.section-costum{
+
+    justify-content: space-between !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSansKR-Regular.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: white !important;
+    overflow-x: hidden;
+    word-break: keep-all
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-max-height {
+    max-height: 690px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+.nav-item {
+    color: #000;
+    margin-right: 20px;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #347EFF;
+}
+
+/* .btn.btn-outline-primary:hover {
+    background-color: #ffffff;
+    color: #000000;
+} */
+
+
+.lignes {
+    width: 9%;
+    border: none;
+    height: 1px;
+    background-color: #B3B3B3;
+    margin: 52px;
+}
+
+.vertical-alignes {
+    border-left: 1px solid #8C8C8C;
+    height: 100px;
+    margin: 0 20px;
+}
+
+
+/* nav bar  */
+.input-nav {
+    width: 84.6px;
+    height: 33.64px;
+    border-radius: 8px;
+    border: 1px solid #347EFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #347EFF;
+    background-color: transparent;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .dnm {
+        display: none !important;
+    }
+
+    .dbm {
+        display: block !important;
+    }
+
+    .footer {
+        background-color: #f1f1f1 !important;
+    }
+}
+
+
+/* part1 */
+.titr {
+    font-size: 32px;
+    font-weight: bold;
+    color: #347EFF;
+    text-align: end;
+    color: #8C8C8C;
+    font-size: 14px;
+    width: 159px;
+}
+
+.img1 {
+    width: 736px;
+    height: 502.98px;
+    border-radius: 20px;
+}
+
+.txt1 {
+    font-size: 16px;
+    font-weight: 400;
+    height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: all .5s;
+}
+
+.txt1:hover {
+    color: #347EFF;
+    padding-left: 20px;
+}
+
+.titre-1 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #212529;
+}
+.img1-section3 {
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.img2-section3{
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.par1{
+    width: 322px;
+}
+.img3-section3{
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+.img2 {
+    border: 1px solid #347EFF !important;
+
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+
+.titr2 {
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.card:hover {
+    border: 3px solid #347EFF !important;
+}
+
+
+
+
+
+.sccgrp {
+    color: #347EFF;
+}
+
+.flch {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    position: relative !important;
+    opacity: 1 !important
+}
+
+#crcl1 {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ptbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl2 {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ftbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-alignes{
+    text-align: center !important;
+    padding: 0;
+    margin: 0;
+}
+#crcl3 {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ftbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titr4 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.titr5 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.prt3p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.img3 {
+    height: 290px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon-gauche {
+    background-image: url("../images/lftbl.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1 !important;
+}
+
+.carousel-control-prev-icon-droite {
+    background-image: url("../images/rgtbl.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1 !important;
+}
+
+
+
+
+
+/* part4 */
+.pprt4 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* part 5 */
+
+.buttons{
+    padding-top: 14px;
+    gap: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-8{
+    padding-top: 14px;
+    gap: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btninactv {
+    border: 1px solid #347EFF !important;
+    width: auto;
+    padding: 0px 20px !important;
+    border-radius:30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #347EFF;
+    background-color: transparent;
+    height: 45px;
+}
+
+
+
+
+.btnactv {
+    width:auto;
+    border-radius:30px;
+    padding: 0px 20px !important;
+    text-align: center;
+    color: #FFF !important;
+    background-color: #347EFF !important;
+    border: 1px solid #347EFF;
+    font-weight: 700;
+    font-size: 1.1rem;
+    height: 45px;
+}
+
+.ktbchng{
+    width: 75%;
+}
+
+.ktbchng .row{
+    height: 387px;
+}
+
+
+.ktbchng #titrp5,.ktbchng #sec3titrp5,.allsec #h4prt6{
+
+    padding-bottom: 3%;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#h4prt6 {
+
+    padding-bottom: 3%;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ktbchng span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: center;
+}
+.para-section{
+    padding-bottom: 29px;
+    padding-left: 6%;
+    width: 100%;
+    text-align: left;
+}
+
+.allsec{
+    border: 1px solid #347EFF;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.inx {
+    width: 40%
+}
+
+.cover-img{
+    object-position: bottom;
+}
+.titrsghyr {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pgsghyra {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.img4 {
+    width: 413px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#h4prt6 {
+    font-size: 1.20rem;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+
+#logimg{
+
+    height: auto;
+    width:150px;
+}
+#txtindx {
+    font-family: noto;
+    font-size: 27px;
+    font-weight: 900;
+
+
+    text-align: left;
+    color: #C4C2D4;
+}
+
+#imgindx {
+    width: 26px;
+}
+
+#flchindx {
+    width: 25.28px;
+    height: 17.92px;
+    top: 14.16px;
+    left: 0.6px;
+    color: #347EFF;
+}
+
+
+.img5 {
+    width: 412px;
+    height: 279px;
+    border-radius: 20px;
+}
+
+.p1prt7 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: auto;
+}
+
+.p2prt7 {
+    font-size: 1.20rem;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    bottom: 0;
+    position: absolute;
+}
+
+.btncrd {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 167px;
+    height: 66px;
+    top: 14px;
+    left: 14px;
+    border-radius: 33px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.prt7hov {
+    max-width: 32%;
+}
+
+.prt7hov:hover .img5 {
+    border: 2px solid #347EFF;
+}
+
+.prt7hov:hover .btncrd {
+    color: #347EFF;
+}
+
+.images-container {
+
+    justify-content: space-around;
+}
+
+/* part 8 */
+#pprt8 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (max-width: 991px) {
+#pprt8 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 94%;
+}
+}
+
+
+
+
+body #section-10 .slick-section-10 {
+    display: none;
+}
+
+.img6 {
+    width: 434px;
+    height: 456.04px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.p1prt8 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.icon-search {
+    position: absolute;
+    top: 5%;
+    right: 14px;
+    pointer-events: none;
+}
+
+
+
+.input-search {
+    width: 47px;
+    height: 33px;
+    transition: all .5s !important;
+    box-shadow: none !important;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+    color: transparent;
+    cursor: auto;
+    padding: 2px 35px 2px 10px;
+    font-size: 0.85rem;
+}
+
+.input-search:focus {
+    width: 147px;
+    border: 1px solid var(--main-color) !important;
+    outline: none !important;
+    color: var(--main-color);
+}
+
+
+.prt8hov {
+    max-width: 459px;
+    padding: 0 20px 0 20px !important;
+}
+
+.indxprt8 {
+    z-index: -1;
+}
+
+.crd81 {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.prt8hov:hover img {
+    transform: scale(1.3) rotate(12deg);
+    transition: transform 1s, .5s ease-in-out;
+}
+
+
+.section-8-prt1{
+    padding-top: 34px;
+    height: 376px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-8-prt1 img{
+    object-fit: cover;
+    opacity: 1.08347;
+    display: block;
+    height: 304px;
+    border-radius: 20px;
+}
+
+
+/* footer */
+footer {
+    padding: 40px;
+    background-color: #d6dfef33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer li {
+    align-items: right;
+    display: inline;
+}
+
+a,
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h3,
+footer h3 {
+    font-size: 20px;
+    display: flex;
+}
+
+.footer-images {
+
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    flex-direction: column;
+}
+
+.footer-images2 img {
+    width: 95%;
+    height: 95%;
+}
+
+.footer-column {
+    border-right: 1px solid #B3B3B3;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+
+#h3ft {
+    font-size: 16px;
+    text-align: end;
+}
+
+#ulft {
+    font-size: 16px;
+}
+
+#h3ft2 {
+    font-size: 32px;
+    color: #347EFF
+}
+
+#ulft2 {
+    text-align: end;
+}
+
+.divft {
+    display: flex;
+    justify-content: space-between;
+}
+
+dl,
+ol,
+ul {
+    text-align: end;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.imgft {
+    width: 93px;
+    border-radius: 20px;
+    height: 62px;
+}
+
+.lnpgft {
+    margin: 0;
+}
+
+.img12 {
+    display: flex;
+}
+
+.imgst1ft {
+    height: 24px;
+}
+
+.imgst2ft {
+    height: 18px;
+    max-width: 17px;
+    margin-right: 4%;
+}
+
+.imgst3ft {
+    height: 18px;
+    max-width: 26px;
+}
+
+.lignesft {
+    margin: 52px;
+}
+.ktbchng .row{
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+
+.cnt {
+    margin-top: 100px !important;
+}
+
+/* icons */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.icns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgicns {
+    max-width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+
+
+.txticns {
+    font-family: noto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ligne1 {
+    color: rgb(197, 196, 198);
+    min-height: 50px;
+}
+
+/* navbar */
+.navbar {
+    height: 95px;
+    padding: 0 !important;
+
+
+}
+
+.drptin {
+    width: 24px;
+    object-fit: cover;
+}
+
+#myTopnav {
+    display: flex;
+    align-items: center;
+}
+
+.collapse.navbar-collapse.justify-content-center .navbar-nav li {
+    margin-right: 20px;
+
+
+}
+
+#myTopnav {
+    display: flex;
+    align-items: center;
+}
+
+#tunis-time {
+    font-size: 14px;
+    font-weight: 400;
+}
+#crcltuns {
+    width: 20px;
+    height: 20px;
+
+}
+.txtnav {
+    font-size: 17px;
+    font-family: noto;
+    font-weight: 400;
+    ;
+}
+
+.btn.btn-outline-primary.btn-main {
+    height: 33px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #347EFF;
+    border: 1px solid #347EFF;
+    font-family: noto;
+    font-size: 17px;
+    padding: 3px;
+    box-shadow: none;
+}
+
+body .btn.btn-outline-primary.btn-main:hover ,.btn.btn-outline-primary.btn-main:active{
+    color: #ffffff;
+    background-color: #347EFF;
+}
+
+
+
+#crcl11 {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ptbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl22 {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ftbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#crcl33 {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ftbl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#section-5 .row{
+    display: flex !important;
+}
+
+#section-1 .slick-list {
+    height: 100%;
+}
+
+#section-1 .slick-list div{
+    height: 100%;
+}
+
+#section-1 .slick-list img{
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+#about-tunisia .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 14px;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #347EFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#about-tunisia #section-9 .block-cards .col-lg-4{
+    padding: 0 20px 0 20px !important;
+}
+
+
+#about-tunisia #section-10 .index{
+    z-index: -1;
+}
+
+#about-tunisia footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-tunisia footer #part1{
+    border-right:1px solid #B3B3B3;
+}
+#about-tunisia footer #part2{
+    border-top:1px solid #B3B3B3;
+}
+
+#about-tunisia footer #part2 .heightimg{
+    height: 24px;
+}
+#about-tunisia footer #part2 .image-footer-1 a{
+    height: 18px;
+    max-width: 17px;
+    margin-right: 4%;
+}
+#about-tunisia footer #part2 .image-footer-1 #imgyt{
+    height: 18px;
+    max-width: 26px;
+}

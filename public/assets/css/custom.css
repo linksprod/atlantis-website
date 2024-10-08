@@ -1,0 +1,1349 @@
+.main-color {
+    color: #347EFF;
+}
+
+.gray-dark {
+    color: #515151;
+}
+
+#page-info .container {
+    max-width: 1400px
+}
+
+
+
+#page-info .custom-card .row {
+
+    margin-top: 6%;
+    width: 100%;
+}
+
+#page-info .custom-card .custom-card-img {
+    margin-top: 8%;
+}
+
+#page-info .custom-card .custom-card-text {
+    margin-top: 4%;
+}
+
+#page-info .custom-card audio {
+    height: 40px;
+    width: 100%;
+}
+
+.cursor-auto {
+    cursor: auto;
+}
+
+.btnactv {
+    border-radius: 30px;
+
+    padding: 0px 20px !important;
+    text-align: center;
+    color: #FFF !important;
+    background-color: #347EFF;
+    border: 1px solid #347EFF;
+
+    font-size: 1.1rem;
+    height: 45px;
+}
+
+
+#page-info a {
+    text-decoration: none;
+    color: black;
+}
+
+#page-info a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+@media (max-width: 767px) {
+    body .wrap-culinary-card .culinary-card {
+        height: 375px !important;
+    }
+    body .wrap-culinary-card .culinary-card .card-img-top {
+        height: 190px !important;
+    }
+    body .wrap-custom-card .custom-card{
+        margin-bottom: 0 !important;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+    #page-info .custom-card .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #page-info .custom-card  .col-8.pl-0.pr-4 {
+        margin-right: 0;
+    padding-right: 0 !important;
+    width: 100%;
+    }
+    figure {
+        margin-bottom: 0 !important;
+    }
+
+    #page-info .custom-card .custom-card-img {
+        margin-top: 0%;
+        height: 85px;
+    }
+
+    body .wrap-custom-card>.col-md-4 {
+        display: block;
+        width: 50%;
+        padding: 3px;
+    }
+    .wrap-souvenir-card {
+        margin-left: -21px
+    }
+
+    #page-info .custom-card .custom-card-text {
+        margin-top: 0%;
+        font-size: 0.8rem;
+    }
+
+    .label {
+        height: 20px !important;
+        width: 40px !important;
+    }
+
+    .label .ball {
+        height: 16px !important;
+        width: 16px !important;
+    }
+
+    #page-info .custom-card audio {
+        height: 32px;
+    }
+
+    .b-left {
+        margin-left: 4px;
+    }
+
+    body .wrap-custom-card .custom-card .custom-card-title {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+    }
+}
+
+.btninactv {
+    border: 1px solid #347EFF !important;
+    border-radius: 30px;
+
+    font-size: 1.1rem;
+    height: 45px;
+    padding: 0px 20px !important;
+    text-align: center;
+    color: #347EFF;
+    background-color: transparent;
+}
+
+.tab-content img {
+    border-radius: 20px;
+}
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+}
+
+.noto {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+#p3-section4 .slick-next {
+    right: -27px !important;
+}
+
+#p3-section6 .slick-next {
+    right: -27px !important;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#page-info h1 {
+    color: #000000;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-size: 28px;
+    color: #347EFF;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+#page-info .slick-list .slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.icone-date {
+    position: relative;
+}
+
+.icone-date:before {
+    content: "";
+    position: absolute;
+    background: url("../img/calendar.png") no-repeat center/contain;
+    width: 22px;
+    height: 22px;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icone-place {
+    position: relative;
+}
+
+.icone-place:before {
+    content: "";
+    position: absolute;
+    background: url("../img/icone_place.png") no-repeat center/contain;
+    width: 22px;
+    height: 22px;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#page-info section {
+    padding: 0;
+}
+
+#page-info .slick-next {
+    right: -17px;
+    margin: 0;
+}
+
+#page-info .slick-prev {
+    left: -88px;
+}
+
+
+/* icons */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.icns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgicns {
+    max-width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+
+.img1 {
+    width: 100%;
+    max-height: 690px;
+    object-fit: cover;
+}
+
+.txticns {
+    font-family: noto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ligne1 {
+    color: rgb(197, 196, 198);
+    min-height: 50px;
+}
+
+@media (max-width: 767px) {
+    body .wrap-custom-card {
+        display: flex;
+        flex-direction: row;
+    }
+    .sessicn {
+        display: none;
+    }
+
+    #page-info .slick-next {
+        right: 3px !important;
+    }
+
+    #page-info .slick-prev {
+        left: -14px !important;
+        margin: 0;
+    }
+
+    #page-info #p3-section5 .slick-prev {
+        left: 9px !important;
+        margin: 0;
+    }
+
+    #page-info #p3-section5 .slick-next {
+        right: 30px !important;
+    }
+
+    #page-info #p3-section6 .slick-dots {
+        bottom: -36px;
+    }
+
+    #page-info .slick-dots {
+        bottom: -80px;
+    }
+
+    #page-info #p3-section3 .slick-dots {
+        bottom: -18px;
+    }
+}
+
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    color: #000000;
+    line-height: 1.15;
+    background: #F7F8FB;
+    /*
+  * PAGE Atlantis
+  */
+}
+
+body .separateur {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 30px 0;
+}
+
+body .separateur:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    background: #B5D0FF;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body .wrap-custom-card {
+    /*   width: 830px; */
+    margin: 10px auto 0;
+    max-width: 100%;
+}
+
+body .wrap-custom-card>.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+body .wrap-custom-card .custom-card {
+    text-align: center;
+    border: 2px solid #347EFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+
+
+body .wrap-custom-card .custom-card .custom-card-title {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.15;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #347EFF;
+    margin-bottom: 10px;
+}
+
+
+
+body .wrap-custom-card .custom-card .custom-card-text {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 0;
+}
+
+body .wrap-culinary-card {
+    /*  width: 860px; */
+    max-width: 100%;
+    margin: 30px auto 0;
+}
+
+body .wrap-culinary-card .slick-list .slick-track {
+    gap: 15px;
+}
+
+body .wrap-culinary-card .culinary-card {
+    padding: 16px 16px 32px 16px;
+    border-radius: 10px;
+    border: 2px solid #347EFF;
+    background: #FFF;
+    min-height: 370px;
+    height: 490px;
+}
+
+body .wrap-culinary-card .culinary-card .card-img-top {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+body .wrap-culinary-card .culinary-card .card-body {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    body .wrap-culinary-card .culinary-card .card-body {
+        text-align: center;
+    }
+
+    body .wrap-culinary-card {
+        margin: 25px 0 25px 0;
+    }
+}
+
+body .wrap-culinary-card .culinary-card .card-body h5 {
+    color: #347EFF;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+body .wrap-culinary-card .culinary-card .card-body .card-text {
+    /* color: #515151; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
+}
+
+#logimg {
+
+    height: auto;
+    width: 150px;
+}
+
+/* body #p3-section3,
+body #p3-section4,
+body #p3-section5 {
+    width: 830px;
+    max-width: 100%;
+    margin: 0 auto;
+} */
+
+/* body #p3-section3>.container,
+body #p3-section4>.container,
+body #p3-section5>.container {
+    width: 830px;
+} */
+
+body #p3-section3>.container>.row,
+body #p3-section4>.container>.row,
+body #p3-section5>.container>.row {
+    margin: 0 -15px;
+    gap: 55px;
+}
+
+#p3-section4 img {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    #page-info #crdssess5 li {
+        width: 100px;
+        margin-top: 9px;
+    }
+}
+@media screen and (max-width: 1280px) {
+
+
+
+    #page-info #p3-section3 .slick-track {
+        align-items: center;
+    }
+
+    #page-info #p3-section3 .slick-dotted.slick-slider {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #page-info #p3-section3 .slick-list .slick-track {
+        gap: 15px;
+    }
+
+    body .main-title {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        margin-top: 35px;
+    }
+
+
+
+    body .wrap-museums-card {
+        margin-top: 0px !important;
+    }
+
+}
+
+
+
+body .wrap-nav-transportation .nav-tabs {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 1px solid #C8C8C8;
+    background: #FFF;
+}
+
+body .wrap-nav-transportation .nav-tabs li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+body .wrap-nav-transportation .nav-tabs li:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background: #B3B3B3;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body .wrap-nav-transportation .nav-tabs li:last-child:after {
+    content: none;
+}
+
+body .wrap-nav-transportation .nav-tabs li a {
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+body .wrap-nav-transportation .nav-tabs li.active {
+    border-bottom: 2px solid #347EFF;
+}
+
+body .wrap-nav-transportation .nav-tabs li.active a {
+    color: #347EFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+body .wrap-nav-transportation .tab-content {
+    margin-top: 20px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 2px solid #347EFF;
+}
+
+body .wrap-nav-transportation .tab-content .tab-pane>.row {
+    margin: 0;
+}
+
+body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
+    height: 380px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6:first-child {
+        height: auto;
+    }
+}
+
+
+body .wrap-nav-transportation .tab-content .tab-pane>.row img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+body .wrap-nav-transportation .tab-content p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    body #p3-section3 .btnactv {
+        font-size: 0.9rem;
+        height: 40px;
+    }
+    body .wrap-nav-transportation {
+        margin-top: 0 ;
+    }
+
+    body .wrap-nav-transportation #btns {
+        margin-bottom: 70px;
+    }
+
+    body#page-info #p3-section3 .wrap-nav-transportation #btns .slick-dots {
+        bottom: -40px;
+    }
+
+    body #p3-section3 .btninactv {
+        font-size: 0.8rem;
+        height: 40px;
+    }
+    body .wrap-nav-transportation .nav-tabs {
+        padding: 5px 15px;
+    }
+
+    body .wrap-nav-transportation .tab-content {
+        padding: 15px;
+    }
+
+
+
+    #page-info .slick-prev {
+        left: -70px;
+    }
+
+    #page-info #p3-section4 .slick-next {
+        right: 7px !important;
+    }
+
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
+        padding: 5px !important;
+    }
+    #page-info #p3-section3 .img-fluid {
+        height: 150px !important;
+    }
+}
+
+
+body .wrap-museums-card .slick-list .slick-track {
+    gap: 0;
+}
+
+body .wrap-museums-card ul.list-museums-card {
+    margin-top: 0px;
+}
+
+body .wrap-museums-card ul.list-museums-card li .museums-card {
+    display: flex;
+    padding: 20px;
+    border: 2px solid #347EFF;
+    border-radius: 20px;
+    height: 621px;
+    flex-direction: column;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: blue;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+}
+
+input:checked+.label {
+    background-color: #ec1cd7;
+}
+
+input:checked+.label:before {
+    transform: translateX(26px);
+}
+
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #fff;
+    color: blue;
+}
+
+audio {
+    /* border: 1px solid #E177FB; */
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+
+audio::-webkit-media-controls-play-button {
+    border: 1px solid #EF34FF;
+    border-radius: 50%;
+    background-image: url(../../images/uil_play.svg);
+}
+
+audio::-webkit-media-controls-play-button:hover {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #515151;
+}
+
+audio::-webkit-media-controls-timeline {
+    color: #D2D2D2 !important;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+
+.fa-moon {
+    color: #ffffff;
+}
+
+.fa-sun {
+    color: #ffffff;
+}
+
+body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
+    color: #347EFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+body #p3-section3 .tab-content .card-title {
+    color: #347EFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-top: 35px;
+}
+
+body #p3-section4 .lignhght {
+    font-size: 1rem;
+    color: #000000;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 2rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 1280px) {
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
+        padding-top: 0;
+    }
+
+}
+
+body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-text {
+    color: #515151;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+@media screen and (max-width: 1280px) {
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        flex-direction: column;
+        padding: 15px;
+        width: 92%;
+        height: 771px;
+    }
+
+
+}
+
+body .wrap-festival-card {
+    margin-top: 30px;
+}
+
+body .wrap-festival-card .col-md-4 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .wrap-festival-card .custom-card {
+    height: 364px;
+    width: 330px !important;
+    max-width: 100%;
+    position: relative;
+    background-size: 100% auto;
+    border-radius: 19px;
+    border: 2px solid #77A7FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+body .wrap-festival-card .custom-card .mask-image {
+    -webkit-mask-image: url("../img/masque.svg");
+    mask-image: url("../img/masque.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    width: 100%;
+}
+
+body .wrap-festival-card .custom-card .custom-card-title {
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+body .wrap-festival-card .custom-card .custom-card-text {
+    position: absolute;
+    right: 15px;
+    top: 55%;
+    font-size: 0.85rem;
+    line-height: 2.15;
+}
+
+@media screen and (max-width: 767px) {
+    #p3-section4 p.text-center.mb-lg-0 {
+        margin-bottom: 0;
+    }
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
+        margin: 0;
+        height: 190px;
+    }
+    body #p3-section4 .lignhght{
+        line-height: 20px;
+    }
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        height: 480px;
+    }
+    body .wrap-festival-card .custom-card .custom-card-title {
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    body #p3-section3 .tab-content .card-title {
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    body .wrap-nav-transportation .tab-content p{
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    body .wrap-festival-card .custom-card .custom-card-text {
+        top: 53% !important;
+        left: 66%;
+        font-size: 0.7rem;
+    }
+
+    body .wrap-festival-card .custom-card {
+        height: 345px !important;
+    }
+
+    #p3-section3 .slick-dots li button::before {
+        top: 65px;
+
+    }
+
+    #p3-section6 .slick-dots li button:before {
+        margin-top: -86% !important
+    }
+
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    body .wrap-festival-card .custom-card {
+        width: 86% !important;
+        height: 305px;
+    }
+}
+
+body .wrap-souvenir-card {
+    margin-top: 10px;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .souvenir-card {
+    position: relative;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd1 {
+    background-image: url("../../images/Couscous.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd2 {
+    background-image: url("../../images/ceramic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd3 {
+    background-image: url("../../images/Olive_oil.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .crd4 {
+    background-image: url("../../images/Wine.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .wrap-souvenir-card .list-souvenir-card .souvenir-card .card-title {
+    display: inline-block;
+    color: #347EFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    main {
+        height: auto;
+    }
+
+    .slick-dots li button::before {
+        top: 10px;
+    }
+
+    #p3-section6 .section-header h2 {
+        margin-top: 19%;
+    }
+}
+
+.note {
+    position: absolute;
+    left: 50%;
+    top: 81%;
+    width: 95px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transform: translateX(-50%);
+    height: 15px;
+}
+
+.note img {
+    padding-right: 5px;
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    #p3-section1 .col-md-4,
+    #p3-section2 .col-md-12,
+    #p3-section2 .col-lg-6 {
+        padding: 0;
+    }
+
+    body .wrap-culinary-card .slick-list .slick-track {
+        gap: 1px;
+    }
+}
+
+/*# sourceMappingURL=custom.css.map */
+
+
+.icon-search {
+    position: absolute;
+    top: 13%;
+    right: 14px;
+    pointer-events: none;
+}
+
+
+#page-info .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media all and (min-width: 768px) and (max-width: 819px) {
+
+    body #p3-section4 .lignhght {
+        line-height: 25px;
+    }
+
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-body .card-title {
+        margin: 5px 0;
+    }
+
+    body .wrap-museums-card ul.list-museums-card li .museums-card .card-img-top {
+        margin: 0px 0 15px;
+        height: 200px;
+    }
+
+    nav .container.justify-content-between {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    main {
+        width: 744px;
+    }
+
+    section {
+        padding: 20px 0;
+        width: 720px;
+    }
+
+    .txticns {
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+    }
+
+    .imgicns {
+        max-width: 50px !important;
+        height: 50px !important;
+        opacity: 1 !important;
+    }
+
+    body .wrap-custom-card>.col-md-4 {
+        width: 248px;
+        height: 255px;
+    }
+
+    figure {
+        margin: 0px 0 1rem 9%;
+    }
+
+    .custom-card .row .col-8.pl-0.pr-4 {
+        padding-right: 0px !important;
+    }
+
+    #page-info .custom-card .row {
+        margin-left: 5%;
+    }
+
+    #page-info .slick-prev {
+        left: -46px;
+    }
+
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
+        width: 100%;
+    }
+
+    #page-info .img-fluid {
+        height: 345px;
+    }
+
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        width: 100%;
+        height: 495px;
+    }
+
+    #page-info .slick-next {
+        right: -16px !important;
+    }
+
+    body #p3-section3>.container>.row,
+    body #p3-section4>.container>.row,
+    body #p3-section5>.container>.row {
+        margin: 0 -15px;
+        gap: 14px;
+    }
+
+    .col-md-3 {
+        width: 32%;
+        padding-left: 0;
+    }
+
+    body .wrap-festival-card .custom-card {
+        width: 100% !important;
+        height: 255px;
+    }
+
+    body .wrap-culinary-card {
+        margin: 25px 0 25px 4px !important;
+    }
+
+    #page-info .custom-card .custom-card-text {
+        margin-top: -1%;
+        margin-left: -20%;
+        font-size: 0.9rem;
+        line-height: 1;
+        left: 67%;
+    }
+
+    #page-info #p3-section6 .slick-next {
+        right: -19px !important;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -17px !important;
+    }
+
+    body .wrap-festival-card .custom-card .mask-image {
+        height: 190px;
+    }
+
+    body .wrap-custom-card .custom-card .custom-card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    #page-info .custom-card .custom-card-img {
+        margin-top: 8%;
+        height: 90px;
+    }
+
+    .label {
+        height: 20px;
+        width: 43px;
+    }
+
+    .label .ball {
+        top: 2px;
+        left: 2px;
+        height: 15px;
+        width: 15px;
+    }
+
+    #page-info .custom-card audio {
+        height: 33px;
+    }
+
+    body .wrap-custom-card .custom-card {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    body .wrap-culinary-card .culinary-card .card-img-top {
+        height: 210px;
+    }
+
+    body .wrap-culinary-card .culinary-card {
+        height: 475px;
+    }
+
+    body #p3-section3 .btnactv {
+        font-size: 0.9rem;
+        height: 40px;
+    }
+
+    body #p3-section3 .btninactv {
+        font-size: 0.8rem;
+        height: 35px;
+    }
+
+    body .wrap-nav-transportation .tab-content {
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    #page-info .img-fluid {
+        height: 200px;
+    }
+
+    body .wrap-nav-transportation .tab-content .tab-pane>.row .col-md-6 {
+        padding: 10px !important;
+    }
+
+    body #p3-section3 .tab-content .card-title {
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    body .wrap-nav-transportation .tab-content p {
+        line-height: 20px;
+    }
+
+    #page-info .img-fluid {
+        height: 255px;
+    }
+
+    .icone-date:before,
+    .icone-place:before {
+        height: 15px;
+    }
+
+    #page-info #crdssess5 li {
+        font-size: 0.8rem;
+    }
+
+    body .wrap-festival-card .custom-card .custom-card-title {
+        padding-left: 3%;
+    }
+
+    #page-info #crdssess1 .custom-card .custom-card-text {
+        margin-left: 0%;
+    }
+}
+
+@media all and (min-width: 820px) and (max-width: 1023px) {
+    #page-info #p3-section2 .slick-prev {
+        left: -72px !important;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -19px !important;
+    }
+
+    #page-info .custom-card .custom-card-text {
+
+        left: 49% !important;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    #page-info #p3-section2 .slick-next {
+        right: -24px !important;
+    }
+
+
+}
+@media (width: 820px) and (height:1180px) {
+    body .wrap-custom-card .custom-card .custom-card-title {
+
+        margin-bottom: 33px;
+    }
+    #page-info .custom-card audio {
+        height: 40px;
+        width: 120px;
+        margin: 0 26px;
+    }
+
+    #page-info #p3-section2 .slick-next {
+        right: -17px !important;
+    }
+    #page-info #p3-section2 .slick-prev {
+        left: -53px !important;
+    }
+    body .wrap-museums-card {
+        margin-top: 0px !important;
+        margin-left: 16px;
+    }
+    body .wrap-museums-card ul.list-museums-card li .museums-card {
+        width: 100%;
+        height: 739px;
+    }
+
+    body .wrap-festival-card .custom-card .custom-card-title {
+        font-family: DM Sans;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    body .wrap-festival-card .custom-card {
+   width:100% !important;
+    }
+
+
+    #p3-section6 .slick-next {
+        right: -30px !important;
+    }
+    #page-info #crdssess5 li {
+        width: 143px !important;
+
+    }
+    body .wrap-festival-card {
+
+        width: 56rem;
+    }
+    #page-info .custom-card .custom-card-text {
+
+        left: 18% !important;
+    }
+    #p3-section4 .slick-next {
+        right: -16px !important;
+    }
+    body .wrap-nav-transportation .tab-content p {
+
+        line-height: 1.3rem;
+
+    }
+    #page-info .slick-prev {
+        left: -60px;
+
+    }
+    body #p3-section3 .tab-content .card-title {
+
+        padding-top: 0px;
+    }
+    body .wrap-souvenir-card {
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+    .one-quarter{
+
+        margin-left: 25px;
+    }
+}

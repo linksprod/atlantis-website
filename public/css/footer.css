@@ -1,0 +1,27 @@
+.part2 p{
+    font-weight: bolder;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.part2 img{
+    width: 196px!important;
+    height: 89px!important;
+    border-radius: 10px!important;
+}
+@media screen and (max-width: 991px) {
+    .part2 img {
+
+        padding: 5px 6px;
+        width: 155px !important;
+        height: 86px !important;
+        border-radius: 10px !important;
+        margin-bottom: -12px;
+
+
+    }
+}
+.cover-img{
+    object-position: bottom;
+}

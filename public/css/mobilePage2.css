@@ -1,0 +1,976 @@
+    @media all and (max-width: 767px) {
+        body {
+            width: 100% !important;
+            overflow-x: hidden !important;
+        }
+
+        body.tunisiatrip .card-body {
+            padding: 0px;
+        }
+
+        main {
+            margin-top: 35px;
+        }
+
+        #img-langue {
+            height: 177px;
+        }
+
+        .crd8 {
+            display: none !important;
+        }
+
+        #section-1 .links_box {
+            margin-bottom: 30px;
+            height: 400px;
+        }
+
+        #section-6 .parghraphe1,
+        #section-5 .parghraphe1 {
+            width: 100%;
+        }
+
+        body section .slick-slide {
+            display: block !important;
+        }
+
+        section .block-cards {
+            display: none !important;
+        }
+
+        body .main-title {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        #sec3img {
+            height: 131px;
+            padding: 0 40px 0px 40px;
+            margin-bottom: 7%;
+        }
+
+        #section-5 .allsec {
+            height: auto;
+        }
+
+        body section {
+            padding: 30px 0;
+        }
+
+        #section-8 .allsec {
+            height: 512px;
+        }
+
+        #section-5 .ligne-separtion {
+            display: none;
+        }
+
+        #section-6 .ligne-separtion4,
+        #section-8 .ligne-separtion {
+            width: 6%;
+        }
+
+        #section-6 .ligne-separtion {
+            width: 30%;
+        }
+
+
+        body #section-3 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        body #section-9 {
+            padding: 0px 0;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .para-section {
+            padding: 0px 10px 0px 10px;
+            width: 100%;
+        }
+
+        .para-section p:last-child {
+            height: 315px;
+            overflow: auto;
+        }
+
+        #section-6 .para-section p:last-child {
+            height: 250px;
+            overflow: auto;
+        }
+
+        #section-5 .parghraphe {
+            font-size: 1rem;
+        }
+
+        #section-5 .row,
+        #section-6 .row {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            background: transparent;
+        }
+        .ktbchng .row {
+            background: transparent;
+        }
+        #about-tunisia footer #part1 {
+            border: none;
+        }
+
+        .parghraphe1 {
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .img2-section3 {
+            text-align: left;
+            padding: 0;
+            height: 60px;
+        }
+
+        .img1-section3 {
+            display: block;
+            height: 60px;
+            margin: auto;
+            padding-bottom: 1%;
+            margin-bottom: 10px;
+        }
+
+        .img3-section3 {
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .navbar {
+            height: 59px;
+            padding: 0 !important;
+        }
+
+        #scrllp {
+            height: 240px;
+        }
+
+        .navbar-expand-lg .container,
+        .navbar-expand-lg .container-fluid,
+        .navbar-expand-lg .container-lg,
+        .navbar-expand-lg .container-md,
+        .navbar-expand-lg .container-sm,
+        .navbar-expand-lg .container-xl {
+            padding: 0 10px;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        .texte1 {
+            display: none;
+        }
+
+        .texte2 {
+            font-size: 89%;
+            height: 155%;
+            display: flex;
+            flex-direction: row;
+            width: 146%;
+            font-weight: 900;
+        }
+
+
+        .texte2 .col-lg-7,
+        .texte2 .col-lg-5 {
+            flex: 1;
+            width: auto;
+        }
+
+        .col-lg-5 span {
+            width: 50% !important;
+            font-size: 74%;
+            text-align: center;
+        }
+
+        .scroll-container {
+            overflow-x: scroll;
+        }
+
+        .img1 {
+            object-fit: cover;
+            margin-top: 1%;
+            width: 496px;
+            height: 312px;
+            border-radius: 20px;
+
+        }
+
+        .titr3 {
+            margin: 0 auto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FD4343;
+            transition: all .5s;
+
+        }
+
+        .titr5 {
+            margin-top: 5%;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .prt7hov {
+            min-width: 270px;
+            margin-right: .5rem !important;
+            margin-left: .5rem !important;
+        }
+
+        .card:hover .titr3 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .img3 {
+            height: 163px;
+            object-fit: contain;
+        }
+
+        .pg3 {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: start;
+        }
+
+        .footer-column {
+            display: none;
+            background-color: white;
+        }
+
+        .variable-width .row {
+            flex-direction: column;
+        }
+
+        .gg {
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 1.25rem !important;
+        }
+
+        .p2prt7 {
+            font-size: 1.10rem;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: black;
+            bottom: 0;
+            position: absolute;
+            margin-left: 16px
+        }
+
+        #h4prt6 {
+            font-size: 1.10rem;
+        }
+
+
+        .img2 {
+
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .titr2 {
+            position: absolute;
+            top: 26%;
+            left: 64%;
+            transform: translate(-50%, -50%);
+        }
+
+        .col-lg-8 .titr1 {
+            display: block;
+            margin-top: 0;
+        }
+
+        #logimg {
+            margin-left: 26%;
+            display: block;
+
+        }
+
+        #logtitre {
+            margin-left: 5%;
+
+        }
+
+        .sccgrp {
+
+            padding: 1rem !important;
+        }
+
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        #logimg {
+            margin-left: 6%;
+            margin-top: 8%;
+            display: block;
+
+        }
+        #navbarNav {
+            width: 100%;
+            background: #fff;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            max-width: 100vw;
+        }
+
+        #tunis-time {
+            margin-left: 2%;
+        }
+
+        dl,
+        ol,
+        ul {
+            padding-left: 0;
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .justify-content-center {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .image-1 {
+            padding-bottom: 15px;
+            text-align: center !important;
+        }
+
+        .image-2 {
+            padding-bottom: 15px;
+            text-align: center !important;
+        }
+
+        .image-3 {
+            text-align: center !important;
+        }
+
+
+
+
+        .navbar-toggled .nav-item {
+            margin-left: -4%;
+            text-align: center;
+            background-color: white;
+            width: 125%;
+            padding-left: 6%;
+            padding-top: 5px;
+            padding-bottom: 12px;
+        }
+
+        .prt3p {
+            margin: 0 auto;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 0%;
+        }
+
+
+        .titr1 {
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 58px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FD4343;
+        }
+
+        .titre-2,
+        .titre-1 {
+            font-size: 1.10rem;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: black;
+            transition: all .5s;
+        }
+
+
+        .ttcard {
+            /* display: flex; */
+            overflow-x: scroll;
+            width: 100%;
+            margin-top: 10px;
+            margin-top: 12%;
+            width: 103%;
+        }
+
+
+
+        .card {
+            height: auto;
+        }
+
+        .lignesfrk {
+            display: none;
+        }
+
+
+
+        .titr4 {
+            margin-top: 90%;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: none;
+        }
+
+        .buttons {
+            padding-right: 0;
+            padding-left: 0;
+            width: 95%;
+            gap: 10px;
+        }
+
+        .btninactv,
+        .btnactv,
+        .btninactv,
+        .btninactv {
+
+            padding: 0 !important;
+            width: 100%;
+            font-size: 0.8rem;
+
+            margin: 0 auto;
+            height: 35px;
+        }
+
+        #about-tunisia .slick-dots li.slick-active button:before {
+            opacity: 1;
+            color: #347EFF;
+        }
+
+        #about-tunisia .slick-dots {
+            bottom: -61px;
+        }
+
+
+        .ktbchng #titrp5 {
+
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        body #section-10 .slick-block-section-10 {
+            display: none !important;
+        }
+
+        body #section-10 .slick-section-10 {
+            display: block;
+        }
+
+        #section-8 .parghraphe {
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .ktbchng .row {
+
+            height: auto;
+        }
+
+        .ktbchng span {
+            font-size: 1rem;
+            font-weight: 600;
+            font-weight: 500;
+            text-align: center;
+
+        }
+
+        #section-3 .links_box {
+            padding: 0 0 30px 0;
+        }
+
+        .crd6 {
+
+            margin-top: 10%;
+        }
+
+        .crd66 {
+            display: flex;
+            flex-direction: row;
+            overflow-x: auto;
+        }
+
+        .col-lg-6 {
+            flex: 0 0 auto;
+        }
+
+        .col-lg-6.d-flex {
+            flex: 0 0 auto;
+        }
+
+        .img4 {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        .col-lg-6.d-flex {
+            margin-top: 0px;
+            padding: 0;
+        }
+
+        #pprt6 {
+            font-size: 1rem;
+            font-weight: 500;
+
+        }
+
+        .img6 {
+            width: 413.17px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        #section-1 .one-time-slide {
+            padding: 0;
+        }
+
+        #txtindx {
+            font-family: noto;
+            font-size: 22px;
+            font-weight: 900;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #C4C2D4;
+            margin-top: 0;
+            margin-left: 20px;
+        }
+
+        .images-container {
+
+            justify-content: flex-start;
+        }
+
+        .card21 {
+            overflow-x: auto;
+        }
+
+        #section-10 .ligne-separtion {
+            width: 20%;
+        }
+
+
+        .crd81 {
+            width: 100%;
+            height: auto;
+            transform-origin: 60% 50%;
+            display: block;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .p1prt7 {
+            font-size: 16px;
+            font-weight: 400;
+            width: 92%;
+            margin-left: 18px;
+            margin-top: 10px;
+
+        }
+
+        .card2 {
+            overflow-x: scroll;
+
+
+        }
+
+        .p1prt8 {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+
+
+        .btninactv1 {
+            font-size: 1.0rem;
+
+        }
+
+        .prt8hov {
+            min-width: 270px;
+            margin-right: .5rem !important;
+            margin-left: .5rem !important;
+        }
+
+
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .titr {
+            font-size: 32px;
+            font-weight: bold;
+            color: #FD4343;
+            color: #8C8C8C;
+            font-size: 12px;
+            width: 164px;
+
+        }
+
+        .pprt4 {
+            display: none;
+        }
+
+        .inx {
+            width: 50%;
+        }
+
+
+
+
+        #crcl1 {
+            width: 7%;
+
+        }
+
+        #crcl2 {
+            width: 7%;
+
+        }
+
+        .ktbchng {
+            height: 100%;
+            width: 100%;
+        }
+
+        .txt1 {
+            font-size: 0.95rem;
+            margin-bottom: 1%;
+        }
+
+        #crcl3 {
+            width: 7%;
+
+        }
+
+        .section-8-prt1 img {
+            height: 294px;
+            margin-top: -3%;
+        }
+
+        .section-8-prt1 {
+            height: 316px;
+            padding: 0;
+        }
+
+        .section-8-prt1-p {
+            height: 97px;
+        }
+
+        .slick-section-10 img {
+            height: 340px;
+        }
+
+        #section-9 .col-lg-4,
+        #section-10 .col-lg-4,
+        #section-3 .col-lg-4,
+        #section-1 .col-lg-4 {
+            padding: 0;
+        }
+
+        #Tunisia-over #section-1 .slick-dots {
+            padding-bottom: 8% !important;
+        }
+
+    }
+
+    @media all and (min-width: 768px) and (max-width: 819px) {
+        #Tunisia-over #section-1 .slick-dots {
+            padding-bottom: 1% !important;
+        }
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+        .nav-item {
+
+            margin-right: 23px;
+        }
+        #logimg {
+            margin-left: 7%;
+            margin-top: 8%;
+            display: block;
+        }
+
+        #toggleButton {
+            margin-top: 2%;
+            position: fixed;
+            top: 0;
+            margin-right: 4%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-nav {
+            margin-top: 7%;
+        }
+
+
+        #tunis-time {
+            margin-left: 2%;
+        }
+
+        .navbar-toggled .nav-item {
+            text-align: center;
+            background-color: white;
+            width: 114%;
+            padding-left: 4%;
+            padding-bottom: 12px;
+        }
+
+
+        nav .container.justify-content-between {
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .txticns {
+            font-family: noto;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .imgicns {
+            max-width: 50px;
+            height: 50px;
+            opacity: 1;
+        }
+        #section-1 .slick-list div {
+            height: 362px;
+        }
+        #section-1 .slick-dotted.slick-slider {
+            margin-bottom: 0px;
+        }
+        #section-3 .slick-slide {
+            display: block;
+        }
+        #section-3 .block-cards {
+            display: none ;
+        }
+        body #section-3 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .para-section {
+            padding-bottom: 0px;
+        }
+        .ktbchng #titrp5, .ktbchng #sec3titrp5, .allsec #h4prt6  {
+            padding-bottom: 0%;
+        }
+        #sec3img {
+            height: 130px;
+        }
+        .allsec {
+            height: 440px;
+        }
+        .buttons {
+            padding-top: 0px;
+        }
+        .btnactv,.btninactv {
+            height: 35px;
+        }
+        #section-5 .row{
+            height: 100%;
+        }
+        .ktbchng {
+            height: 100%;
+            margin-bottom: 4%;
+        }
+        #img-langue {
+            height: 225px;
+        }
+        .buttons-8 {
+            padding-top: 0px;
+        }
+        .section-8-prt1 {
+            padding-top: 5px;
+            height: 295px;
+            width: 100%;
+            display: block;
+        }
+        .section-8-prt1 img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+        section .block-cards {
+            display: none !important;
+        }
+        #section-9{
+            height: 540px;
+        }
+        #section-9 .slick-slide {
+            display: block;
+        }
+        body #section-10 .crd8{
+            display: none !important;
+        }
+
+        body #section-10 .slick-section-10 {
+            display: block;
+        }
+        .prt8hov {
+            max-width: 100%;
+        }
+        #section-10 .slick-slide img {
+            display: block;
+            width: 100%;
+            height: 280px;
+        }
+        #about-tunisia .slick-dots li.slick-active button:before {
+            opacity: 1;
+            color: #347EFF;
+        }
+        #section-10{
+            padding-top: 5%;
+        }
+        .slick-dots {
+            bottom: -65px  !important;
+        }
+        #section-3 .slick-dots {
+            bottom: -90px !important;
+        }
+    }
+    @media (width: 820px) and (height:1180px) {
+        #myTopnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        #logimg {
+            margin-left: 7%;
+            margin-top: 8%;
+            display: block;
+        }
+
+        #toggleButton {
+            margin-top: 2%;
+            position: fixed;
+            top: 0;
+            margin-right: 4%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-nav {
+            margin-top: 7%;
+        }
+
+
+        #tunis-time {
+            margin-left: 2%;
+        }.ktbchng .row {
+            height: 100%;
+        }
+        #sec3img {
+            object-fit: contain;
+            width: 86%;
+            height: 203px;
+            padding: 5px;
+        }
+        #img-langue {
+            object-fit: contain;
+            width: 100%;
+            height: 300px;
+        }
+        .ktbchng {
+            width: 100%;
+        }
+        .navbar-toggled .nav-item {
+            text-align: center;
+            background-color: white;
+            width: 114%;
+            padding-left: 4%;
+            padding-bottom: 12px;
+        }
+
+        .block-cards{
+            margin: 0 8px;
+        }
+        .img6 {
+            height: 319.04px;
+
+        }
+
+        .crd81 {
+            width: 227px;
+        }
+        #section-3 .block-cards {
+            margin: 10px auto;
+            width: 89%;
+        }
+        #section-3 .block-cards .card {
+            transition: all .3s ease;
+            cursor: pointer;
+            border: 3px solid #f1f1f1bf;
+            padding: 5px 15px;
+            margin: 2%;
+        }
+        .footer dl, ol, ul {
+            text-align: justify;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .txticns {
+            font-family: noto;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .section-8-prt1 img {
+            object-fit: cover;
+            opacity: 1.08347;
+            display: block;
+            height: 322px;
+            border-radius: 20px;
+            width: 100%;
+            background-position: center;
+            background-size: 40%;
+        }
+
+    }

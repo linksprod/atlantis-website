@@ -1,0 +1,264 @@
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSansKR-Regular.ttf);
+}
+
+
+body {
+    text-align: center;
+    font-family: noto;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.main-img {
+    background-image: url("../images/Image Placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination {
+    display: inline-block;
+    text-align: center;
+}
+
+.pagination .page {
+    color: #5D5A88;
+    float: left;
+    border-radius: 8px;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination .page.active {
+    background-color: #5D5A88;
+    color: white;
+    cursor: not-allowed;
+}
+
+.pagination .page:hover {
+    background-color: #5D5A88;
+    color: white;
+}
+
+
+
+.text-in-img {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-in-img h1{
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.text-in-img p{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.btn-white , .btn-white:hover{
+    background-color: #FFFFFF;
+    color: #5D5A88;
+    font-size: 15px;
+    height: 54px;
+}
+
+.btn-transparant, .btn-transparant:hover {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    height: 54px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: center;
+}
+
+.item-actv {
+    color: #5D5A88;
+    font-weight: 700;
+}
+
+.item-inactv {
+    color: #ADABC3;
+    font-weight: 500;
+}
+
+#section-3 {
+    background-color: #EFEFEF;
+    text-align: left;
+}
+
+
+#section-3 span {
+    font-size: 30px;
+    color: #5D5A88;
+}
+
+.lign-in-sectuion-3-mobil{
+    display: none;
+}
+.lign-in-sectuion-3{
+    display: block;
+}
+
+.section-3-pat2 input {
+    background-color: #EFEFEF;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: #8D8BA7;
+}
+
+.section-3-pat2 input::placeholder {
+    color: #8D8BA7;
+}
+
+.section-3-pat2 p{
+    color: #5D5A88;
+}
+
+.lign-in-sectuion-3 {
+    width: 100%;
+    height: 1px;
+    background-color: #BCBACD;
+}
+
+.btn-color , .btn-color:hover{
+    background-color: #5D5A88;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-subscrib{
+    font-size: 13px;
+}
+
+.form-check-input, .form-check-input:checked{
+    background-color: #5D5A88;
+    border: 1px solid transparent;
+    color: #8D8BA7;
+}
+
+.section-3-pat2 p{
+    text-align: end;
+    font-size: 15px;
+    color: #5D5A88;
+}
+
+#section-4 .patie-1 ,#section-6, #section-5 .partie-1,#section-5 .partie-2{
+    text-align: start;
+}
+
+#section-4 .patie-1 h1{
+    font-size: 40px;
+    color: #5D5A88;
+    font-weight: bold;
+}
+
+#section-4 .patie-1 p{
+    font-size: 16px;
+    color: #9795B5;
+}
+
+.btn-see-more{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#section-5 .partie-1{
+    background-color: #5D5A88;
+    color: #FFFFFF;
+}
+
+#section-5 .partie-1 h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#section-5 .partie-1 p{
+    font-size: 15px;
+}
+
+
+#section-5 .partie-2{
+    border: 1px solid #5D5A88;
+}
+
+#section-5 .partie-2 h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #5D5A88;
+}
+
+#section-5 .partie-2 p{
+    font-size: 15px;
+    color: #9795B5;
+}
+
+.partie-2 button{
+    height: 54px;
+}
+
+.partie-2-btn{
+    text-align: center;
+}
+
+#section-6 .head h1{
+    font-size: 40px;
+    color: #5D5A88;
+    font-weight: bold;
+}
+
+#section-6 .head p{
+    font-size: 16px;
+    color: #9795B5;
+}
+
+.card-imag{
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.description h3{
+    font-size: 30px;
+    color: #5D5A88;
+    font-weight: bold;
+}
+
+.description p{
+    font-size: 15px;
+    color: #9795B5;
+}
+
+.description button{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#section-2{
+    cursor: pointer;
+}
+
