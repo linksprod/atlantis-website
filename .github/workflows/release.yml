@@ -20,10 +20,10 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
   APP_LOCATION: "/" # location of your client code
-  API_LOCATION: "api" # location of your api source code - optional
+  API_LOCATION: "" # location of your api source code - optional, set to empty if not used
   APP_ARTIFACT_LOCATION: "dist" # location of client code build output
-  AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.DEPLOYMENTTOKEN }}
-  BASE_URL: "https://tunisiatrip.com" # secret containing deployment token for your static web app
+  AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.DEPLOYMENTTOKEN }} # secret containing deployment token for your static web app
+  BASE_URL: "https://tunisiatrip.com" # base URL for your web application
 
 permissions:
   contents: read
@@ -47,11 +47,11 @@ jobs:
           azure_static_web_apps_api_token: ${{ env.AZURE_STATIC_WEB_APPS_API_TOKEN }} # secret containing api token for app
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: ${{ env.APP_LOCATION }}
-          api_location: ${{ env.API_LOCATION }}
-          app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }}
+          app_location: ${{ env.APP_LOCATION }} # Path to the app
+          api_location: ${{ env.API_LOCATION }} # Path to your API (set empty if not used)
+          app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }} # Path to your build output
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
@@ -66,4 +66,7 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ env.AZURE_STATIC_WEB_APPS_API_TOKEN }} # secret containing api token for app
-          action: "close"
+          action: "close" # action to close the pull request
+          app_location: ${{ env.APP_LOCATION }} # Path to the app
+          api_location: ${{ env.API_LOCATION }} # Path to your API (set empty if not used)
+          app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }} # Path to your build output
