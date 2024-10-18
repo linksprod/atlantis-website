@@ -6,6 +6,7 @@ use App\Models\Mailing;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Confirmation;
 use Illuminate\Http\Request;
+use App\Mail\contact;
 
 class MailingController extends Controller
 {
@@ -25,11 +26,25 @@ class MailingController extends Controller
 
     function store(Request $request)
     {
-        Mailing::create($request->all());
-        Mail::to($request->email)->send(new Confirmation());
+        // Validate the incoming request data
+        $validatedData = $request->validate([
+            'nom' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'contenue' => 'required|string',
+        ]);
+        
+        // Send the confirmation email
+            Mail::to('atlantis@atlantis.tn')->send(new Contact(
+                $validatedData['nom'],
+                $validatedData['email'],
+                $validatedData['contenue']
+            ));
+        
+         Mail::to($request->email)->send(new Confirmation());
+
         $success = 1;
         return redirect()->route('page1')->with('success', $success);
-       // return view('page1.page1')->with('success', $success);
+        // return view('page1.page1')->with('success', $success);
     }
 
     /**
