@@ -24,7 +24,7 @@
                 <tr>
                     <td style="text-align:center;">
                         <a href="https://tunisiatrip.com/" title="logo" target="_blank">
-                            <img width="250" src="{{ asset('images/LogoProk.jpg') }}" title="logo" alt="logo">
+                            <img width="250" src="{{ asset('images/LogoProk.png') }}" title="logo" alt="logo">
                         </a>
                     </td>
                 </tr>

@@ -199,7 +199,7 @@
                         <p>Executive management</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
                                 src="{{ asset('images/emil.png') }}" alt="Email"
-                                class="pr-2"><span>contact@atlantis.tn</span>
+                                class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
