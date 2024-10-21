@@ -34,7 +34,7 @@ class MailingController extends Controller
         ]);
         
         // Send the confirmation email
-            Mail::to('malek.guemri@esprit.tn')->send(new Contact(
+            Mail::to('inbox.tunisiatrip@gmail.com')->send(new Contact(
                 $validatedData['nom'],
                 $validatedData['email'],
                 $validatedData['contenue']
