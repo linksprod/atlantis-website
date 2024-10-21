@@ -199,7 +199,7 @@
                         <p>Executive management</p>
                         <div class="d-flex align-items-center justify-content-center mt-lg-2"><img
                                 src="{{ asset('images/emil.png') }}" alt="Email"
-                                class="pr-2"><span>inbox.tunisiatrip@gmail.com</span>
+                                class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                         <p class="p-1 mb-0">Executive management</p>
                         <div class="d-flex align-items-center justify-content-center"><img
                                 src="{{ asset('images/emil.png') }}" alt="Email"
-                                class="pr-2"><span>inbox.tunisiatrip@gmail.com</span>
+                                class="pr-2"><span>atlantis@atlantis.tn</span>
                         </div>
                     </div>
                 </div>
