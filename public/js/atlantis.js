@@ -84,13 +84,12 @@ function chngcontsess4(x) {
     document.getElementById('numcrd').value = x;
     var crd1 = ['Car.jpg'];
     var crd3 = ['bus.png'];
-    var crd4 = ['van1.jpg'];
 
     var numcrd = document.getElementById('numcrd').value;
     var secImg = document.getElementById('PAS4I1');
-
     var PAS4I1 = document.getElementById('PAS4I1');
     var PAS4I2 = document.getElementById('PAS4I2');
+    var PAS4I3 = document.getElementById('PAS4I3');
     secImg.innerHTML = '';
     if (numcrd == 0) {
         for (var i = 0; i < crd1.length; i++) {
@@ -102,11 +101,14 @@ function chngcontsess4(x) {
         PAS4I1.style.position = 'relative';
         PAS4I2.style.opacity = 0;
         PAS4I2.style.position = 'absolute';
+        PAS4I3.style.opacity = 0;
+        PAS4I3.style.position = 'absolute';
     } else if (numcrd == 1) {
         PAS4I1.style.opacity = 0;
         PAS4I1.style.position = 'absolute';
         PAS4I2.style.opacity = 1;
         PAS4I2.style.position = 'relative';
+        PAS4I3.style.opacity = 0;
 
     } else if (numcrd == 2) {
         for (var i = 0; i < crd3.length; i++) {
@@ -119,23 +121,31 @@ function chngcontsess4(x) {
         PAS4I1.style.position = 'relative';
         PAS4I2.style.opacity = 0;
         PAS4I2.style.position = 'absolute';
+        PAS4I3.style.opacity = 0;
+        PAS4I3.style.position = 'absolute';
     } else if (numcrd == 3) {
-        for (var i = 0; i < crd4.length; i++) {
-            secImg.innerHTML += `
-         <img class='w-100 imgsess4 radius-20' src="../images/`+ crd4[i] + `" alt="Bardo National Museum">
-        `;
-        }
-        PAS4I1.style.opacity = 1;
-        PAS4I1.style.position = 'relative';
+        
+        PAS4I1.style.opacity = 0;
+        PAS4I1.style.position = 'absolute';
         PAS4I2.style.opacity = 0;
         PAS4I2.style.position = 'absolute';
+        PAS4I3.style.opacity = 1;
+        PAS4I3.style.position = 'relative';
     }
 }
 $('#PAS4I2').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: true,
-    arrows: false,
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+});
+$('#PAS4I3').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: true,
     infinite: true,
     speed: 500,
 });
@@ -432,3 +442,6 @@ $('#image-2, #image-3, #image-4, #image-5').on('click', function () {
         console.log("h2")
     }
 });
+window.onload = function() {
+    chngcontsess4(0); // Set initial state to show the Car section
+};

@@ -309,7 +309,12 @@
                             alt="Car">
                         <img src="{{ asset('images/Mini bus 5.jpg') }}" class=" w-100 imgsess4 radius-20"
                             alt="Car">
-
+                    </div><div class="col-lg-7 card-session4-cnt-imgs px-0 " id='PAS4I3'>
+                        <img src="{{ asset('images/van1.jpg ') }}" class=" imgsess4 radius-20" alt="Car">
+                        <img src="{{ asset('images/van2.jpg') }}" class=" w-100 imgsess4 radius-20"
+                            alt="Car">
+                        <img src="{{ asset('images/van3.png') }}" class=" w-100 imgsess4 radius-20"
+                            alt="Car">
                     </div>
 
                 </div>
