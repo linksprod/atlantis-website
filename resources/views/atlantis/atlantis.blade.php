@@ -1,8 +1,7 @@
 @include('layouts.front.head')
 <meta name="description"
     content="튀니지에서 가장 유명한 여행사인 아틀란티스 여행사를 소개합니다. 아틀란티스 여행사에 대한 간략한 설명과 함께 아틀란티스가 제공하는 차량 서비스, 호텔 및 게스트하우스 정보를 안내합니다.">
-<meta name="keywords"
-    content="아틀란티스 여행사
+<meta name="keywords" content="아틀란티스 여행사
 
     CWT
 
@@ -92,8 +91,8 @@
                             <img src="{{ asset('images/Atlantis_logo_temporary.svg') }}" class="w-100 mr-3"
                                 alt="Atlantis Logo" id='logoat'>
                             <div class="separator"></div>
-                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3"
-                                alt="CWT" id="logCWT">
+                            <img src="{{ asset('images/CWT_Logo_Vector.svg') }}" class="img-fluid ml-3 mt-3" alt="CWT"
+                                id="logCWT">
                         </div>
 
 
@@ -305,16 +304,13 @@
                     </div>
                     <div class="col-lg-7 card-session4-cnt-imgs px-0 " id='PAS4I2'>
                         <img src="{{ asset('images/Mini-bus-2.jpg ') }}" class=" imgsess4 radius-20" alt="Car">
-                        <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20"
-                            alt="Car">
-                        <img src="{{ asset('images/Mini bus 5.jpg') }}" class=" w-100 imgsess4 radius-20"
-                            alt="Car">
-                    </div><div class="col-lg-7 card-session4-cnt-imgs px-0 " id='PAS4I3'>
+                        <img src="{{ asset('images/Mini-bus-3.jpg') }}" class=" w-100 imgsess4 radius-20" alt="Car">
+                        <img src="{{ asset('images/Mini bus 5.jpg') }}" class=" w-100 imgsess4 radius-20" alt="Car">
+                    </div>
+                    <div class="col-lg-7 card-session4-cnt-imgs px-0 " style="opacity:0" id='PAS4I3'>
                         <img src="{{ asset('images/van1.jpg ') }}" class=" imgsess4 radius-20" alt="Car">
-                        <img src="{{ asset('images/van2.jpg') }}" class=" w-100 imgsess4 radius-20"
-                            alt="Car">
-                        <img src="{{ asset('images/van3.png') }}" class=" w-100 imgsess4 radius-20"
-                            alt="Car">
+                        <img src="{{ asset('images/van2.jpg') }}" class="  imgsess4 radius-20" alt="Car">
+                        <img src="{{ asset('images/van3.png') }}" class="  imgsess4 radius-20" alt="Car">
                     </div>
 
                 </div>
@@ -331,8 +327,8 @@
                 <div class="col-lg-3  sess5crd radius-20">
                     <a id="sess5crd1href" href="https://www.fourseasons.com/tunis/">
                         <div class="mask-image">
-                            <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}"
-                                class="img-fluid" alt="Four Seasons Tunis">
+                            <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
+                                alt="Four Seasons Tunis">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -353,8 +349,8 @@
                 <div class="col-lg-3 sess5crd radius-20">
                     <a id="sess5crd2href" href="https://www.anantara.com/en/sahara-tozeur">
                         <div class="mask-image">
-                            <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}"
-                                class="img-fluid" alt="Anantara Tozeur">
+                            <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
+                                alt="Anantara Tozeur">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -373,11 +369,10 @@
                     </a>
                 </div>
                 <div class="col-lg-3 sess5crd radius-20">
-                    <a id="sess5crd3href"
-                        href="https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html">
+                    <a id="sess5crd3href" href="https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html">
                         <div class="mask-image">
-                            <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}"
-                                class="img-fluid" alt="Movenpick Sousse">
+                            <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
+                                alt="Movenpick Sousse">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -421,8 +416,8 @@
                     <a id="sess5crd5href" href="https://www.goldenyasmin.com/fr/">
 
                         <div class="mask-image">
-                            <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}"
-                                class="img-fluid" alt="Le Kasbah Kairouan">
+                            <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
+                                alt="Le Kasbah Kairouan">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -443,10 +438,9 @@
                 <div class="col-lg-3 sess5crd radius-20">
                     <a id="sess5crd6href" href="https://www.facebook.com/reservationpansy/">
                         <div class="mask-image">
-                            <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}"
-                                class="img-fluid" alt="Pansy KSAR Ghilene">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                            <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
+                                alt="Pansy KSAR Ghilene">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -467,8 +461,8 @@
                 <div class="col-lg-3  sess5crd radius-20">
                     <a href="https://www.fourseasons.com/tunis/">
                         <div class="mask-image">
-                            <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}"
-                                class="img-fluid" alt="Four Seasons Tunis">
+                            <img id='sess5crd1img' src="{{ asset('images/Four-Seasons-Tunis.jpeg') }}" class="img-fluid"
+                                alt="Four Seasons Tunis">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -490,8 +484,8 @@
                 <div class="col-lg-3 sess5crd radius-20">
                     <a href="https://www.anantara.com/en/sahara-tozeur">
                         <div class="mask-image">
-                            <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}"
-                                class="img-fluid" alt="Anantara Tozeur">
+                            <img id='sess5crd2img' src="{{ asset('images/Anantara-Tozeur.jpeg') }}" class="img-fluid"
+                                alt="Anantara Tozeur">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -514,8 +508,8 @@
                     <a href="https://movenpick.accor.com/fr/africa/tunisia/sousse/hotel-sousse.html">
 
                         <div class="mask-image">
-                            <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}"
-                                class="img-fluid" alt="Movenpick Sousse">
+                            <img id='sess5crd3img' src="{{ asset('images/Movenpick-Sousse.jpeg') }}" class="img-fluid"
+                                alt="Movenpick Sousse">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -562,8 +556,8 @@
                     <a href="https://www.goldenyasmin.com/fr/">
 
                         <div class="mask-image">
-                            <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}"
-                                class="img-fluid" alt="Le Kasbah Kairouan">
+                            <img id='sess5crd5img' src="{{ asset('images/Le-Kasbah-Kairouan.jpeg') }}" class="img-fluid"
+                                alt="Le Kasbah Kairouan">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -585,10 +579,9 @@
                 <div class="col-lg-3 sess5crd radius-20">
                     <a href="https://www.facebook.com/reservationpansy/">
                         <div class="mask-image">
-                            <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}"
-                                class="img-fluid" alt="Pansy KSAR Ghilene">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                            <img id='sess5crd6img' src="{{ asset('images/Pansy-KSAR-Ghilene.jpeg') }}" class="img-fluid"
+                                alt="Pansy KSAR Ghilene">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -609,8 +602,7 @@
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Radisson-Sfax.jpeg') }}" class="img-fluid"
                                 alt="Radisson Sfax">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -633,8 +625,7 @@
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Sheraton.jpeg') }}" class="img-fluid"
                                 alt="Sheraton">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -657,8 +648,7 @@
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/Africa.jpeg') }}" class="img-fluid"
                                 alt="Africa">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -679,10 +669,9 @@
                     <a href="https://movenpick.accor.com/en/africa/tunisia/tunis/hotel-du-lac-tunis.html">
 
                         <div class="mask-image">
-                            <img id='sess5crd6img' src="{{ asset('images/Movenpick-Lac-2.jpeg') }}"
-                                class="img-fluid" alt="Movenpick Lac 2">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                            <img id='sess5crd6img' src="{{ asset('images/Movenpick-Lac-2.jpeg') }}" class="img-fluid"
+                                alt="Movenpick Lac 2">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -703,10 +692,9 @@
                     <a href="https://www.elmouradi.com/">
 
                         <div class="mask-image">
-                            <img id='sess5crd6img' src="{{ asset('images/Mouradi-gammarth-2.jpeg') }}"
-                                class="img-fluid" alt="Mouradi Gammarth">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                            <img id='sess5crd6img' src="{{ asset('images/Mouradi-gammarth-2.jpeg') }}" class="img-fluid"
+                                alt="Mouradi Gammarth">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -729,8 +717,7 @@
                         <div class="mask-image">
                             <img id='sess5crd6img' src="{{ asset('images/mars2.jpg') }}" class="img-fluid"
                                 alt="Camp Mars">
-                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue'
-                            class="cercle-img">
+                        </div> <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
                         <div class="posit">
                             <img src="{{ asset('images/gps.png') }}" alt='gps' class="mr-2">
@@ -766,8 +753,8 @@
                     <a href="https://darbengacem.com/" id="sess6crd1href">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}"
-                                class="img-fluid" alt="Dar Ben Gacem">
+                            <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
+                                alt="Dar Ben Gacem">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -802,9 +789,8 @@
                     <a href="https://www.darellamma.com/" id="sess6crd3href">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg"
-                                src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
-                                alt="Dar ellamma">
+                            <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}"
+                                class="img-fluid" alt="Dar ellamma">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -823,8 +809,8 @@
                     <a href="https://darbengacem.com/">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}"
-                                class="img-fluid" alt="Dar Belgecem">
+                            <img class="sess6crdimg" src="{{ asset('images/dar_bel_gesem.jpg') }}" class="img-fluid"
+                                alt="Dar Belgecem">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -859,9 +845,8 @@
                     <a href="https://www.darellamma.com/">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg"
-                                src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}" class="img-fluid"
-                                alt="Carthage">
+                            <img class="sess6crdimg" src="{{ asset('images/guesthouse-_bizerte-_dar_Ellamma.jpg') }}"
+                                class="img-fluid" alt="Carthage">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -897,8 +882,8 @@
                     <a href="https://www.diarhabibi.com/">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg" src="{{ asset('images/diar-abou-habibi.jpg') }}"
-                                class="img-fluid" alt="Diar Abou Habibi">
+                            <img class="sess6crdimg" src="{{ asset('images/diar-abou-habibi.jpg') }}" class="img-fluid"
+                                alt="Diar Abou Habibi">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -915,8 +900,8 @@
                     <a href="http://www.darsaidabeya.com/">
 
                         <div class="mask-image">
-                            <img class="sess6crdimg" src="{{ asset('images/dar_saida_baya.jpg') }}"
-                                class="img-fluid" alt="Dar Saida Baya">
+                            <img class="sess6crdimg" src="{{ asset('images/dar_saida_baya.jpg') }}" class="img-fluid"
+                                alt="Dar Saida Baya">
                         </div>
                         <img src="{{ asset('images/sess6crd1crcl.png') }}" alt='cercle blue' class="cercle-img">
                         <p class="text-img">링크</p>
@@ -949,8 +934,7 @@
 
             </div>
             <div class="d-flex justify-content-center mt-5 sccgrp mb-5 scrllsess6">
-                <a class="carousel-control-prev flch" role="button" data-slide="prev"
-                    onclick="PAsrllcrdssess6(-1)">
+                <a class="carousel-control-prev flch" role="button" data-slide="prev" onclick="PAsrllcrdssess6(-1)">
                     <span class="carousel-control-prev-icon-gauche" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>

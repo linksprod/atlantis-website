@@ -140,6 +140,8 @@ $('#PAS4I2').slick({
     arrows: true,
     infinite: true,
     speed: 500,
+    prevArrow: '<button class="slick-prev" style="position: absolute; top: 50%; left: 0%; transform: translateY(-50%); border: none; padding: 10px; z-index: 1000;">&#9664;</button>',
+    nextArrow: '<button class="slick-next" style="position: absolute; top: 50%; right: 4%; transform: translateY(-50%); border: none; padding: 10px; z-index: 1000;">&#9654;</button>',
 });
 $('#PAS4I3').slick({
     slidesToShow: 1,
@@ -148,7 +150,10 @@ $('#PAS4I3').slick({
     arrows: true,
     infinite: true,
     speed: 500,
+    prevArrow: '<button class="slick-prev" style="position: absolute; top: 50%; left: 0%; transform: translateY(-50%); border: none; padding: 10px; z-index: 1000;">&#9664;</button>',
+    nextArrow: '<button class="slick-next" style="position: absolute; top: 50%; right: 4%; transform: translateY(-50%); border: none; padding: 10px; z-index: 1000;">&#9654;</button>',  
 });
+
 
 
 z = 0;
@@ -442,6 +447,3 @@ $('#image-2, #image-3, #image-4, #image-5').on('click', function () {
         console.log("h2")
     }
 });
-window.onload = function() {
-    chngcontsess4(0); // Set initial state to show the Car section
-};
