@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXCRZ76B9M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YXCRZ76B9M');
+    </script>
     <meta charset="UTF-8">
     <link rel="icon" href="/Tunisiatrip.icon" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +23,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/atlantis.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('css/mobile.css') }}"> --}}
+    {{--
+    <link rel="stylesheet" href="{{ asset('css/mobile.css') }}"> --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }}">
     <!-- Favicon -->
