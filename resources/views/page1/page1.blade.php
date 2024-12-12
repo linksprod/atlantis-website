@@ -688,7 +688,8 @@
                                 placeholder="문의사항 " required></textarea>
                         </div>
                         <div class="form-group">
-                            <div class="g-recaptcha" data-sitekey="6Ld4wpkqAAAAANXeNAnVChY40IB4GuLEx82sPcAI"></div>
+                            <div class="g-recaptcha" data-sitekey="6Ld4wpkqAAAAANXeNAnVChY40IB4GuLEx82sPcAI"
+                                data-callback="enableSubmitButton" data-expired-callback="disableSubmitButton"></div>
                             @if ($errors->has('captcha'))
                                 <span class="text-danger">{{ $errors->first('captcha') }}</span>
                             @endif
@@ -696,7 +697,8 @@
                         <div class="form-group text-lg-right mt-lg-4 button-formulaire">
                             <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
                                 onclick="viderchapm()">취소</button>
-                            <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
+                            <button type="submit" id="submit-button" class="btn btn-outline-primary button4 m-0  mb-2"
+                                disabled>문의하기</button>
 
                         </div>
                     </form>
@@ -962,8 +964,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/slick.js') }}" type="text/javascript" charset="utf-8"></script>
-
     <script src="{{ asset('js/ScriptPage1.js') }}"></script>
+    <script>
+        function enableSubmitButton() {
+            document.getElementById('submit-button').disabled = false; // Enable the submit button
+        }
+
+        function disableSubmitButton() {
+            document.getElementById('submit-button').disabled = true; // Disable the submit button
+        }
+    </script>
     <script type="text/javascript">
         // Code JavaScript pour gérer l'affichage/cachage du menu
         const toggleButton = document.getElementById('toggleButton');
