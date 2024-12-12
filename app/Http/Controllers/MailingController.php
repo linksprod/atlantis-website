@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\Confirmation;
 use Illuminate\Http\Request;
 use App\Mail\contact;
+use Illuminate\Support\Facades\Http;
 
 class MailingController extends Controller
 {
@@ -15,8 +16,8 @@ class MailingController extends Controller
      */
     public function index()
     {
-        $mailings=Mailing::all();
-        return view("dashboard.mailing.mailing",compact('mailings'));
+        $mailings = Mailing::all();
+        return view("dashboard.mailing.mailing", compact('mailings'));
     }
 
     public function create()
@@ -31,20 +32,33 @@ class MailingController extends Controller
             'nom' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'contenue' => 'required|string',
+            'g-recaptcha-response' => 'required',
         ]);
-        
+        $secretKey = '6Ld4wpkqAAAAAN-XjAk58AL-csEImJDCfepdhDZq';
+
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => $secretKey,
+            'response' => $request->input('g-recaptcha-response'),
+        ]);
+    
+        $responseData = $response->json();
+    
+        // Check if reCAPTCHA validation is successful
+        if (!$responseData['success']) {
+            return redirect()->back()->withErrors(['captcha' => 'reCAPTCHA verification failed. Please try again.']);
+        }
+
         // Send the confirmation email
-            Mail::to('inbox.tunisiatrip@gmail.com')->send(new Contact(
-                $validatedData['nom'],
-                $validatedData['email'],
-                $validatedData['contenue']
-            ));
-        
-         Mail::to($request->email)->send(new Confirmation());
+        Mail::to('inbox.tunisiatrip@gmail.com')->send(new Contact(
+            $validatedData['nom'],
+            $validatedData['email'],
+            $validatedData['contenue']
+        ));
+
+        Mail::to($request->email)->send(new Confirmation());
 
         $success = 1;
         return redirect()->route('page1')->with('success', $success);
-        // return view('page1.page1')->with('success', $success);
     }
 
     /**
@@ -52,10 +66,10 @@ class MailingController extends Controller
      */
     public function show($id)
     {
-        $mailing=Mailing::find($id);
+        $mailing = Mailing::find($id);
         $mailing->etat = 1;
         $mailing->update();
-        return view("dashboard.mailing.affichmail",compact('mailing'));
+        return view("dashboard.mailing.affichmail", compact('mailing'));
     }
 
     /**

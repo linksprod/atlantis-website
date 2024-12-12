@@ -75,43 +75,43 @@
             </a>
             <div class=" ligne1 m-4 lg">|</div>
             <a href="trip-itinerary#ligne-section3">
-                <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img
-                        id='img2' src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,2)" onmouseleave="changeImage(false,2)"><img id='img2'
+                        src="{{ asset('images/Icon_2_Second_Animation.gif') }}" class="imgicns">
                     <p id="p2" class="txticns">항공편</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
             <a href="travel-information#p3-section5">
-                <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img
-                        id='img3' src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,3)" onmouseleave="changeImage(false,3)"><img id='img3'
+                        src="{{ asset('images/Icon_3_Second_Animation.gif') }}" class="imgicns">
                     <p id="p3" class="txticns">축제</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
             <a href="about-tunisia#ligne-section9">
-                <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img
-                        id='img4' src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,4)" onmouseleave="changeImage(false,4)"><img id='img4'
+                        src="{{ asset('images/Icon_4_Second_Animation.gif') }}" class="imgicns">
                     <p id="p4" class="txticns">활동</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
             <a href="about-atlantis#to-section-4">
-                <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img
-                        id='img5' src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,5)" onmouseleave="changeImage(false,5)"><img id='img5'
+                        src="{{ asset('images/Icon_5_Second_Animation.gif') }}" class="imgicns">
                     <p id="p5" class="txticns">자동차 서비스</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
             <a href="trip-itinerary#Popular-Tour">
-                <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img
-                        id='img6' src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,6)" onmouseleave="changeImage(false,6)"><img id='img6'
+                        src="{{ asset('images/Icon_6_Second_Animation.gif') }}" class="imgicns">
                     <p id="p6" class="txticns">크루즈</p>
                 </div>
             </a>
             <div class="ligne1 m-4 lg">|</div>
             <a href="travel-information#p3-section4">
-                <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img
-                        id='img7' src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
+                <div class="icns" onmouseenter="changeImage(true,7)" onmouseleave="changeImage(false,7)"><img id='img7'
+                        src="{{ asset('images/Icon_7_Second_Animation.gif') }}" class="imgicns">
                     <p id="p7" class="txticns">박물관</p>
                 </div>
             </a>
@@ -307,7 +307,7 @@
 
 
 
-    {{--    <div class="lignes"></div> --}}
+    {{-- <div class="lignes"></div> --}}
 
     <section id="section-3">
         <div class="container sess3mobvid text-center">
@@ -363,7 +363,7 @@
 
     </section>
 
-    {{--    <div class="lignes"></div> --}}
+    {{-- <div class="lignes"></div> --}}
 
     <section id="section-4">
         <h2 class="main-title12">Tunisia's main cities</h2>
@@ -411,10 +411,8 @@
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p " id='crd2h1'>튀니스</span>
                             <div class=" d-flex justify-content-between">
-                                <button class="btn btn-outline-primary btn1-b text-center mr"
-                                    id="btn1">수도</button>
-                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
-                                    id="btn1-b">동쪽</button>
+                                <button class="btn btn-outline-primary btn1-b text-center mr" id="btn1">수도</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center" id="btn1-b">동쪽</button>
                             </div>
 
                         </div>
@@ -422,8 +420,8 @@
                     </div>
 
                     <div class="d-flex flex-column affmob pr-lg-3">
-                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2"
-                            alt="Sahara" {{-- onclick="changeImage2()" --}}>
+                        <img src="{{ asset('images/Rectangle 821.png') }}" class="imageB2" id="imageB2" alt="Sahara"
+                            {{-- onclick="changeImage2()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p2" id='crd2h2'>두즈</span>
                             <div class=" d-flex justify-content-between">
@@ -441,21 +439,19 @@
                             <span class="text-p3" id='crd2h3'>카이루안</span>
                             <div class="d-flex justify-content-between">
                                 <button class="btn btn-outline-primary btn3 text-center btn1-b" id="btn3">따뜻한</button>
-                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center"
-                                    id="btn3-b">남쪽</button>
+                                <button class="btn btn-outline-primary btn1-b3 ml-2 text-center" id="btn3-b">남쪽</button>
                             </div>
                         </div>
                     </div>
 
                     <div class="d-flex flex-column affmob pr-lg-3">
-                        <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4"
-                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <img src="{{ asset('images/Matmata.png') }}" class="imageB4" id="imageB4" alt='Matmata Tunisie'
+                            {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>마트마타</span>
                             <div class="d-flex justify-content-between">
                                 <button class="btn btn-outline-primary btn4 text-center btn1-b" id="btn4">따뜻한</button>
-                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center"
-                                    id="btn4-b">남쪽</button>
+                                <button class="btn btn-outline-primary btn1-b4 ml-2 text-center" id="btn4-b">남쪽</button>
                             </div>
                         </div>
                     </div>
@@ -468,8 +464,7 @@
                             <div class=" d-flex justify-content-between">
                                 <button class="btn btn-outline-primary btn1-b text-center mr btn1-b"
                                     id="btn1">따뜻한</button>
-                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center"
-                                    id="btn1-b">동쪽</button>
+                                <button class="btn btn-outline-primary btn1-b1 ml-2 text-center" id="btn1-b">동쪽</button>
                             </div>
                         </div>
                     </div>
@@ -498,8 +493,8 @@
                         </div>
                     </div>
                     <div class="d-flex flex-column affmob pr-lg-3">
-                        <img src="{{ asset('images/star_wars_touzer-tunisiatrip.jpg') }}" class="imageB7"
-                            id="imageB4" alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
+                        <img src="{{ asset('images/star_wars_touzer-tunisiatrip.jpg') }}" class="imageB7" id="imageB4"
+                            alt='Matmata Tunisie' {{-- onclick="changeImage4()" --}}>
                         <div class="d-flex flex-column align-items-start">
                             <span class="text-p4" id='crd2h4'>토주르</span>
                             <div class=" d-flex justify-content-between">
@@ -525,8 +520,7 @@
             <div class="row slick-slider-visitRev">
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
-                            class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">진OO</h5>
                             <p class="card-text">머리는 유럽에, 가슴은 아랍에, 발은 아프리카에 있는 나라. 수도에서 조금만 나가보시면 수수하지만 절대 밋밋하지는 않은 매력을
@@ -536,8 +530,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center ">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">백OO</h5>
                             <p class="card-text">튀니지 사람들은 친절해요!! 눈 마주치면 꼭 인사를 해줍니다^___^ ‘하리싸’가 들어간 음식이 많아서 매운음식 생각날때
@@ -574,8 +567,7 @@
                 </div>
                 <div class="crdrev" id="crd2">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
-                            class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">전OO</h5>
                             <p class="card-text">지중해 국가 여행을 색다르게 해보고 싶다면 튀니지는 분명히 매력적으로 다가올 것 같아요. 그리스 산토리니를 연상케하는 시디 부
@@ -588,8 +580,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">마OO</h5>
                             <p class="card-text">사람들이 친절하고 역사가 깊은 튀니지 ! 고대 로마 유적지를 눈 앞에서 볼 수 있고 밤발로니, 쿠스쿠스, 하리사 등
@@ -600,8 +591,7 @@
 
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl'
-                            class="card-img-top">
+                        <img class="imgwj1" src="{{ asset('images/BG (3).png') }}" alt='girl' class="card-img-top">
                         <div class="card-body text-center">
                             <h5 class="card-title title">임OO</h5>
                             <p class="card-text">튀니지를 도착했을때 아 이곳이 북아프리카구나~ 했던 생각들이 이주일 뒤엔 이곳이 그리스인가? 하고 바뀌었어요. 갔다 와 보시면
@@ -613,8 +603,7 @@
                 </div>
                 <div class="crdrev">
                     <div class="card h-100 d-flex flex-column justify-content-center align-items-center">
-                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy'
-                            class="card-img-top boy">
+                        <img class="imgwj1" src="{{ asset('images/BG (2).png') }}" alt='boy' class="card-img-top boy">
                         <div class="card-body text-center">
                             <h5 class="card-title title">이OO</h5>
                             <p class="card-text">튀니지는 여행지가 진짜 매력적인 나라라고 생각합니다. 감마르트, 수스, 함마메트 등 꼭 가봐야하는 여행지가 매우 많습니다.
@@ -665,7 +654,7 @@
         <div class="container ">
             <h2 class="main-title text-center">Contact Us</h2>
 
-            {{--  <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
+            {{-- <p class=" text-center">문의사항에 빠르고 친절하게 답변해 드리겠습니다</p> --}}
             <div class="row mr-0 card-contact">
                 <div class="col-md-6 right-Contact p-5">
                     <div id="logform" class="pr-lg-4">
@@ -687,19 +676,24 @@
                     <form action="{{ route('mailings.store') }}" method="POST" id='formmail'>
                         @csrf
                         <div class="form-group">
-                            <input type="text" name="nom" id="nom" class="txt1 px-3 frminptstyl"
-                                placeholder="이름" required>
+                            <input type="text" name="nom" id="nom" class="txt1 px-3 frminptstyl" placeholder="이름"
+                                required>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="txt1 px-3 frminptstyl"
-                                placeholder="이메일" required>
+                            <input type="email" name="email" id="email" class="txt1 px-3 frminptstyl" placeholder="이메일"
+                                required>
                         </div>
                         <div class="form-group mb-lg-0 form-textaria">
-                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl" placeholder="문의사항 "
-                                required></textarea>
+                            <textarea type="text" name="contenue" id="contenue" class="txt2 px-3 pt-2 frminptstyl"
+                                placeholder="문의사항 " required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6Ld4wpkqAAAAANXeNAnVChY40IB4GuLEx82sPcAI"></div>
+                            @if ($errors->has('captcha'))
+                                <span class="text-danger">{{ $errors->first('captcha') }}</span>
+                            @endif
                         </div>
                         <div class="form-group text-lg-right mt-lg-4 button-formulaire">
-
                             <button type="buttom" class="btn btn-outline-primary button4-cancel m-0 mb-2"
                                 onclick="viderchapm()">취소</button>
                             <button type="submit" class="btn btn-outline-primary button4 m-0  mb-2">문의하기</button>
@@ -793,16 +787,14 @@
                                     이루어져있어요. 이 중 이슬람교를 믿는 무슬림은 약 98%를 차지합니다.</p>
                             </div>
                             <div class="col-lg-7">
-                                <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg"
-                                    alt="Peoples">
+                                <img id='img1Cnt' class='imgactv' src="images/tmp_1697673169545.jpg" alt="Peoples">
                             </div>
                         </div>
                     </div>
                     <div class="text-container ">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg"
-                                    alt='Touriste'>
+                                <img id='img2Cnt' class='imginactv' src="images/tmp_1697673121691.jpg" alt='Touriste'>
                             </div>
                             <div class="col-lg-5">
                                 <p id="txt2" class="txtinactv">2021년 튀니지는 200만 명의 관광객을 맞이하며 관광업에서 상당한 부상을 보였습니다.
@@ -814,8 +806,7 @@
                     <div class="text-container ">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg"
-                                    alt="Historique">
+                                <img id='img3Cnt' class='imginactv' src="images/tmp_1697673183049.jpg" alt="Historique">
                             </div>
                             <div class="col-lg-5">
                                 <p id="txt3" class="txtinactv">튀니지는 다양한 문명을 아우르는 약 700개의 역사적인 장소를 자랑합니다. 고대의
@@ -827,8 +818,7 @@
                     <div class="text-container ">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg"
-                                    alt="Books">
+                                <img id='img4Cnt' class='imginactv' src="images/tmp_1697673154452.jpg" alt="Books">
                             </div>
                             <div class="col-lg-5">
                                 <p id="txt4" class="txtinactv">튀니지는 세계 최초의 대학이 있는 특별한 곳입니다. 737년에 설립된 자이투나 대학은
@@ -909,8 +899,7 @@
                     <a href="trip-itinerary#to-main routes">
                         <div class="d-flex justify-content-center mb-4 gap-lg-5 ">
                             <div class="part2">
-                                <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara"
-                                    class="object-fit-cover">
+                                <img src="{{ asset('images/sahraaae.png') }}" alt="Sahara" class="object-fit-cover">
                                 <p>활동</p>
                             </div>
                     </a>
@@ -966,7 +955,7 @@
 
 
 
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -980,13 +969,13 @@
         const toggleButton = document.getElementById('toggleButton');
         const navbarNav = document.getElementById('navbarNav');
 
-        toggleButton.addEventListener('click', function() {
+        toggleButton.addEventListener('click', function () {
             navbarNav.classList.toggle('show');
         });
     </script>
     <script>
-        $(document).ready(function() {
-            $('#scrollToContact').on('click', function() {
+        $(document).ready(function () {
+            $('#scrollToContact').on('click', function () {
                 $('html, body').animate({
                     scrollTop: $('#contact-us-section').offset().top
                 }, 'slow');
@@ -994,7 +983,7 @@
         });
     </script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             var windowWidth = $(window).width();
             var windowHeight = $(window).height();
 
@@ -1028,7 +1017,7 @@
             }
         });
 
-        $(window).resize(function() {
+        $(window).resize(function () {
             var windowWidth = $(window).width();
             var windowHeight = $(window).height();
 
@@ -1082,7 +1071,7 @@
         window.addEventListener('resize', handleWindowSizeChange);
     </script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             if ($(window).width() < 1024) {
                 $('.slick-slider-section-3').slick({
                     infinite: true,
@@ -1100,7 +1089,7 @@
         });
     </script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             $('.variable-width').slick({
                 infinite: true,
@@ -1122,8 +1111,8 @@
         });
     </script>
     <script>
-        jQuery(document).ready(function() {
-            jQuery("#toggleButton").click(function() {
+        jQuery(document).ready(function () {
+            jQuery("#toggleButton").click(function () {
                 jQuery(".custom-navbar").toggleClass("toggled");
             });
 
@@ -1136,7 +1125,7 @@
                  }, 3000); */
             }
 
-            $("#model-close").on('click', function() {
+            $("#model-close").on('click', function () {
                 $('#modalemailsucc').modal('hide');
             });
 
@@ -1145,7 +1134,7 @@
             document.getElementById('paragraph3').style.display = "none";
             document.getElementById('paragraph4').style.display = "none";
 
-            $("#btnTunis").on('click', function() {
+            $("#btnTunis").on('click', function () {
                 $(this).addClass("btnactv");
                 $(this).removeClass("btninactv");
                 $("#btnSfax").removeClass("btnactv");
@@ -1156,7 +1145,7 @@
                 document.getElementById("sfax-weather").style.display = "none";
                 document.getElementById("kairouan-weather").style.display = "none";
             });
-            $("#btnSfax").on('click', function() {
+            $("#btnSfax").on('click', function () {
                 $(this).addClass("btnactv");
                 $(this).removeClass("btninactv");
                 $("#btnTunis").removeClass("btnactv");
@@ -1167,7 +1156,7 @@
                 document.getElementById("sfax-weather").style.display = "block";
                 document.getElementById("kairouan-weather").style.display = "none";
             });
-            $("#btnKairouan").on('click', function() {
+            $("#btnKairouan").on('click', function () {
                 $(this).addClass("btnactv");
                 $(this).removeClass("btninactv");
                 $("#btnTunis").removeClass("btnactv");
@@ -1194,7 +1183,7 @@
             var body = document.querySelector('body');
             body.classList.toggle('navbar-toggled');
         }
-        $('#image-2, #image-3, #image-4, #image-5').on('click', function() {
+        $('#image-2, #image-3, #image-4, #image-5').on('click', function () {
             if ($(this).find('.parag-img').css('opacity', '0')) {
                 $(this).find('.parag-img').css('opacity', '1')
                 console.log("h1")
@@ -1219,7 +1208,7 @@
             appendArrows: $('#mySlickCarousel'),
         });
 
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             if (window.innerWidth <= 1024) {
                 var itemsDiv = document.getElementById('slicksect2');
                 if (!itemsDiv.classList.contains('slick-sess2')) {
@@ -1245,7 +1234,7 @@
             cssEase: 'linear'
         });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             //54it il lien connecter
             var currentURL = window.location.href;
             var parts = currentURL.split('/');
